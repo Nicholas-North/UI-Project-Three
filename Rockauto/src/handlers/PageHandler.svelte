@@ -4,6 +4,7 @@
     import {setContext} from 'svelte';
 
     import SectionHandler from './SectionHandler.svelte';
+    export let parts = [];
 
     let ActiveContext = {section: 'Catalog', context: 'splash'};
 
@@ -20,7 +21,7 @@
 </script>
 
 <main>
-    <SectionHandler />
+    <SectionHandler parts={parts} context={ActiveContext}/>
 </main>
 
 <style>
