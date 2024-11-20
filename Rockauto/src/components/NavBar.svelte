@@ -20,34 +20,38 @@
   
   <style>
     nav {
-      position: relative;
-      top: 0;
-      width: 93.9%;
-      background-color: #6C584C;
-      color: #f0ead2;
-      padding: 1rem;
-      font-size: 22px;
+        position: relative;
+        top: 0;
+        width: 100%;
+        background-color: #fff; /* White background */
+        color: #6C584C;
+        padding: 1rem 1rem 0 1rem; /* Remove bottom padding */
+        font-size: 22px;
     }
-  
+
     ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: flex-start;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
     }
-  
+
     li {
-      display: inline;
+        margin-right: 10px; /* Spacing between each button */
     }
-  
+
     a {
-      color: #f0ead2;
-      text-decoration: none;
-      padding: 0.5rem 1rem;
+        display: block;
+        padding: 10px 15px;
+        background-color: #f0f0f0; /* Slightly gray background */
+        color: #6C584C;
+        text-decoration: none;
+        border-radius: 10px 10px 0 0; /* Rounded corners at the top */
+        transition: background-color 0.3s;
     }
-  
+
     a:hover {
-      background-color: #352100;
+        background-color: #d4d4d4; /* Slightly darker gray background on hover */
     }
-  </style>
+</style>

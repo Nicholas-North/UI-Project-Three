@@ -86,8 +86,7 @@
     {/if}
 
     {#if selectedMake && selectedModel && selectedYear}
-        <p>Vehicle ID: {vehicleID}</p>
-        <button on:click={chooseVehicle}>Set Active Context</button>
+        <button on:click={chooseVehicle}>View Available Items</button>
     {/if}
 </main>
 
@@ -95,10 +94,38 @@
     main {
         display: flex;
         flex-direction: column;
+        align-items: center; /* Center horizontally */
+        margin-top: 2rem; /* Start at the center top */
+        text-align: center; /* Center text */
         gap: 1rem;
+        font-size: 1.2rem; /* Larger text */
+    }
+
+    .dropdown-container {
+        padding: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shaded box */
+        background-color: #f9f9f9; /* Slightly shaded background */
     }
 
     label {
         margin-top: 1rem;
+        font-size: 1.2rem; /* Larger text */
+    }
+
+    select, button {
+        font-size: 1.2rem; /* Larger text */
+    }
+
+    select {
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shaded box */
+    }
+
+    p {
+        font-size: 1.2rem; /* Larger text */
     }
 </style>

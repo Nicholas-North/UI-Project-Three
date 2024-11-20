@@ -7,56 +7,78 @@
 
     export let cart = [];
 
+    function clearCart() {
+        // Create a copy of the cart array to avoid modifying it while iterating
+        const cartCopy = [...cart];
+        cartCopy.forEach((part, index) => {
+            document.getElementById(part.Name + index).style.display = 'none';
+            removeFromCart(part);
+        });
+    }
+
 </script>
 
 <main>
-    <h1 class="head">&nbsp; Cart</h1>
+    <h1 class="head">Cart</h1>
     <div class="scroll">
-        {#each cart as part, i}
-            <div class="container" id={part.Name + i} style="display:flex;">
-                <div class="part-item">
-                <p class="bigText">{part.Name} Price: ${part.Price}</p>
-                <button class='X' on:click={() => {document.getElementById(part.Name + i).style.display="none"; removeFromCart(part);}}>&#x2718</button>
-                </div>
-            </div>
-        {/each}
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Remove?</th>
+                </tr>
+            </thead>
+            <tbody>
+                {#each cart as part, i}
+                    <tr id={part.Name + i}>
+                        <td>{part.Name}</td>
+                        <td>${part.Price}</td>
+                        <td>
+                            <button class='X' on:click={() => {document.getElementById(part.Name + i).style.display="none"; removeFromCart(part);}}>&#x2718</button>
+                        </td>
+                    </tr>
+                {/each}
+            </tbody>
+        </table>
     </div>
     <button class="bigText" on:click={() => {
-        for(let i=cart.length; i>0; i--){
+        for(let i=cart.length - 1; i >= 0; i--){
             removeFromCart(cart[i]);
         }
         setActiveContext('Catalog', 'splash');
     }}>Purchase</button>
-    <button class="bigText" on:click={() => {
-        let j = 0;
-        for(let i=cart.length-1; i>=0; i--){
-            console.log(typeof(cart[i]));
-            console.log(cart[i]['Name']);
-            document.getElementById(cart[i]['Name']+j).style.display='none';
-            removeFromCart(cart[i]);
-            j++;
-        }
-    }}>Clear Cart</button>
-
+    <button class="bigText" on:click={clearCart}>Clear Cart</button>
 </main>
 
 <style>
-    .part-item {
-        display: flex;
-        align-items: center;
-        padding: 2px;
+    .scroll {
+        overflow-x: auto;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 10px;
         border: 1px solid black;
-        border-radius: 8px;
+        text-align: left;
     }
-    .bigText{
-      font-size: 20px;
+    th {
+        background-color: #f0f0f0;
     }
-    .head{
-      color: #6C584C;
-      font-size: 30px;
+    .bigText {
+        font-size: 20px;
     }
-    .X{
-        font-size:20px;
-        color:red;
+    .head {
+        color: #6C584C;
+        font-size: 30px;
+    }
+    .X {
+        font-size: 20px;
+        color: red;
+        border: none;
+        background: none;
+        cursor: pointer;
     }
 </style>
