@@ -1,6 +1,7 @@
 <script>
     import { onMount, afterUpdate, getContext} from 'svelte';
     import partsData from '../data/Parts.json'; // Assuming the JSON file is in the same directory
+    import carModels from '../data/Car_Models.json';
 
     export let VehicleID;
 
@@ -9,6 +10,9 @@
     let categories = [];
     let selectedCategories = new Set();
     let priceFilter = 'all';
+    let sortColumn = '';
+    let sortDirection = 'asc';
+    let car = carModels.find(car => car.VehicleID === parseInt(VehicleID));
 
     const addToCart = getContext('addToCart');
     const removeFromCart = getContext('removeFromCart');
@@ -70,6 +74,21 @@
         }
 
     }
+
+    function sortParts(column) {
+        if (sortColumn === column) {
+            sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
+        } else {
+            sortColumn = column;
+            sortDirection = 'asc';
+        }
+
+        filteredParts = [...filteredParts].sort((a, b) => {
+            if (a[column] < b[column]) return sortDirection === 'asc' ? -1 : 1;
+            if (a[column] > b[column]) return sortDirection === 'asc' ? 1 : -1;
+            return 0;
+        });
+    }
 </script>
 
 <main>
@@ -115,19 +134,34 @@
         </div>
     
         <div class="parts-list">
+            <h1>Showing results for: {car.Company + ' ' + car.Model + ' ' + car.Year}</h1>
             <h3>Parts List</h3>
-            {#each filteredParts as part}
-                <div class="part-item">
-                    <div>
-                        <h3>{part.Name}</h3>
-                        <p>Category: {part.Category}</p>
-                        <p>Price: ${part.Price}</p>
-                    </div>
-                    <button class="cart-button" on:click={() => toggleCart(part)}>
-                        {isInCart(part) ? '-' : '+'}
-                    </button>
-                </div>
-            {/each}
+            <table>
+                <thead>
+                    <tr>
+                        <th on:click={() => sortParts('Name')}>Name</th>
+                        <th on:click={() => sortParts('Category')}>Category</th>
+                        <th on:click={() => sortParts('Description')}>Description</th>
+                        <th on:click={() => sortParts('Price')}>Price</th>
+                        <th>Add to Cart?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {#each filteredParts as part, index}
+                        <tr class={index % 2 === 0 ? 'even' : 'odd'}>
+                            <td>{part.Name}</td>
+                            <td>{part.Category}</td>
+                            <td>{part.Description}</td>
+                            <td>${part.Price}</td>
+                            <td>
+                                <button class="cart-button" on:click={() => toggleCart(part)}>
+                                    {isInCart(part) ? '-' : '+'}
+                                </button>
+                            </td>
+                        </tr>
+                    {/each}
+                </tbody>
+            </table>
         </div>
     </div>
 </main>
@@ -145,20 +179,25 @@
         flex: 1;
         padding: 10px;
     }
-    .part-item {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
         padding: 10px;
-        border-bottom: 1px solid #ccc;
+        border: 1px solid #ccc;
+        text-align: left;
     }
-
-    .part-item:hover .cart-button {
-        display: inline-block;
+    th{
+        cursor: pointer;
     }
-
+    .even {
+        background-color: #f9f9f9;
+    }
+    .odd {
+        background-color: #fff;
+    }
     .cart-button {
-        display: none;
-        margin-left: 10px;
+        padding: 5px 10px;
     }
 </style>
