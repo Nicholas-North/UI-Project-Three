@@ -26,6 +26,9 @@
     function setFilteredParts(part) {
         filteredParts = part;
     }
+    onMount(() => {
+        setContext('setFilteredParts', setFilteredParts);
+    });
 
     let cartItems = [];
     function addToCart(part) {
@@ -38,8 +41,7 @@
     function isInCart(part) {
         return cartItems.indexOf(part) > -1;
     }
-
-    setContext('setFilteredParts', setFilteredParts);
+  
     setContext('addToCart', addToCart);
     setContext('removeFromCart', removeFromCart);
     setContext('isInCart', isInCart);
