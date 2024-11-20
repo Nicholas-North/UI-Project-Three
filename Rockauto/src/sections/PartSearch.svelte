@@ -14,14 +14,24 @@
   function Searching(parts) 
     {
       let input = document.getElementById('mySearch').value;
+      console.log(input);
+      for (let i = 0; i < parts.length; i++){
+        if (parts[i]['PartID'] == input) {
+          filteredParts.push(parts[i]);
+          console.log('FOUND');
+        }
+      }
+      /*
       let filter = input.toUpperCase();
       for (let i = 0; i < parts.length; i++){
         if (parts[i].name.toUpperCase().indexOf(filter) > -1) {
           filteredParts.push(parts[i]);
         }
       }
+        */
+      console.log(filteredParts);
       setFilteredParts(filteredParts);
-      setActiveContext('Result', 'splash')
+      setActiveContext('Result', 'splash');
     }
   </script>
   

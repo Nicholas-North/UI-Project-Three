@@ -1,0 +1,405 @@
+Company,Model,Horsepower,Torque,Transmission Type,Drivetrain,Fuel Economy,Number of Doors,Price,Model Year Range,Body Type,Engine Type,Number of Cylinders
+Ferrari,812 Superfast,789 hp,530 lb-ft,7-speed automatic,RWD,13/20 mpg,2,"$366,712",2018 - Present,Coupe,6.5L V12,12
+Ferrari,F8 Tributo,710 hp,568 lb-ft,7-speed automatic,RWD,15/19 mpg,2,"$276,550",2020 - Present,Coupe,3.9L V8,8
+Ferrari,Roma,611 hp,560 lb-ft,8-speed automatic,RWD,16/24 mpg,2,"$218,750",2021 - Present,Coupe,3.9L V8,8
+Ferrari,Portofino M,612 hp,561 lb-ft,8-speed automatic,RWD,16/22 mpg,2,"$254,475",2021 - Present,Convertible,3.9L V8,8
+Ferrari,SF90 Stradale,986 hp,590 lb-ft,8-speed automatic,AWD,18 mpg (combined),2,"$625,000",2020 - Present,Coupe,4.0L V8,8
+Ferrari,488 Pista,711 hp,568 lb-ft,7-speed automatic,RWD,15/20 mpg,2,"$350,050",2019 - 2020,Coupe,3.9L V8,8
+Ferrari,GTC4Lusso,680 hp,514 lb-ft,7-speed automatic,AWD,12/17 mpg,4,"$298,750",2017 - 2020,Hatchback,6.3L V12,12
+Ferrari,488 GTB,661 hp,561 lb-ft,7-speed automatic,RWD,15/22 mpg,2,"$262,647",2016 - 2019,Coupe,3.9L V8,8
+Ferrari,California T,553 hp,557 lb-ft,7-speed automatic,RWD,16/23 mpg,2,"$202,723",2015 - 2018,Convertible,3.9L V8,8
+Ferrari,LaFerrari,950 hp,664 lb-ft,7-speed automatic,RWD,12 mpg (combined),2,"$1,420,000",2014 - 2016,Coupe,6.3L V12,12
+Mahindra,XUV300,109 hp,200 Nm,"6-speed Manual, 6-speed AMT",FWD,13-20 km/l,5,Rs. 7.96 - 13.33 Lakh,2019 - present,SUV,"1.2L Turbo Petrol, 1.5L Turbo Diesel",3/4
+Mahindra,Scorpio,140 hp,320 Nm,6-speed Manual,RWD,15 km/l,"5, 7",Rs. 12.57 - 16.53 Lakh,2020 - present,SUV,2.2L mHawk Diesel,4
+Mahindra,Thar,"152 hp (petrol), 132 hp (diesel)","320 Nm (petrol), 300 Nm (diesel)","6-speed Manual, 6-speed AT",4WD,7-12 km/l,"4, 6",Rs. 12.11 - 16.86 Lakh,2020 - present,SUV,"2.0L Turbo Petrol, 2.2L mHawk Diesel",4
+Mahindra,Bolero,75 hp,210 Nm,5-speed Manual,RWD,16 km/l,"5, 7",Rs. 8.67 - 9.39 Lakh,2001 - present,SUV,1.5L mHawk75 Diesel,3
+Mahindra,Marazzo,121 hp,300 Nm,6-speed Manual,FWD,17 km/l,"7, 8",Rs. 12.4 - 14.12 Lakh,2018 - present,MPV,1.5L mHawk Diesel,4
+Mahindra,Alturas G4,178 hp,420 Nm,7-speed Automatic,AWD,12 km/l,5,Rs. 28.74 - 31.73 Lakh,2018 - present,SUV,2.2L mHawk Diesel,4
+Toyota,Camry,203-301 hp,182-267 lb-ft,8-speed automatic,FWD,26-34 mpg,4,"$25,045-$35,130",2018-2021,Sedan,2.5L 4-cylinder / 3.5L V6,4 / 6
+Toyota,Corolla,169 hp,151 lb-ft,Continuously variable-speed automatic,FWD,30-33 mpg,4,"$20,025-$25,725",2019-2021,Sedan,2.0L 4-cylinder,4
+Toyota,RAV4,203-219 hp,184-265 lb-ft,8-speed automatic,FWD / AWD,27-40 mpg,4,"$26,250-$37,330",2019-2021,SUV,2.5L 4-cylinder,4
+Toyota,Highlander,295-295 hp,263-263 lb-ft,8-speed automatic,FWD / AWD,21-36 mpg,4,"$35,085-$47,230",2019-2021,SUV,3.5L V6,6
+Toyota,4Runner,270 hp,278 lb-ft,5-speed automatic,RWD / 4WD,16-19 mpg,4,"$36,765-$50,745",2018-2021,SUV,4.0L V6,6
+Toyota,Tacoma,159-278 hp,180-265 lb-ft,6-speed automatic / 6-speed manual,RWD / 4WD,18-23 mpg,2 / 4,"$26,150-$46,780",2019-2021,Pickup truck,2.7L 4-cylinder / 3.5L V6,4 / 6
+Toyota,Tundra,381 hp,401 lb-ft,6-speed automatic,RWD / 4WD,13-17 mpg,2 / 4,"$33,675-$51,995",2018-2021,Pickup truck,5.7L V8,8
+Ford,Mustang,310-760 hp,350-625 lb-ft,6-speed manual/10-speed automatic,RWD,16-21 mpg city / 24-32 mpg highway,2,"$28,450-$61,600",2015-2021,Coupe/Convertible,Gas V6/V8,4/6/2008
+Ford,F-150,290-450 hp,265-510 lb-ft,6-speed automatic/10-speed automatic,RWD/4WD,16-20 mpg city / 22-26 mpg highway,2/4,"$28,940-$70,825",2015-2021,Pickup Truck,"Gas V6/V8, Diesel V6",6/8
+Ford,Explorer,300-400 hp,310-415 lb-ft,10-speed automatic,FWD/AWD,18-21 mpg city / 24-28 mpg highway,4,"$33,860-$54,365",2015-2021,SUV,"Gas I4/V6, Hybrid V6",4/6
+Ford,Escape,181-250 hp,190-280 lb-ft,8-speed automatic,FWD/AWD,23-26 mpg city / 31-34 mpg highway,4,"$26,130-$40,395",2015-2021,SUV,"Gas I3/I4, Hybrid I4",3/4
+Ford,Edge,250-335 hp,275-380 lb-ft,8-speed automatic,FWD/AWD,21-22 mpg city / 28-29 mpg highway,4/5,"$32,250-$43,400",2015-2021,SUV,Gas I4/V6,4/6
+Ford,Ranger,270 hp,310 lb-ft,10-speed automatic,RWD/4WD,21-23 mpg city / 26-26 mpg highway,4,"$24,820-$42,660",2019-2021,Pickup Truck,Gas I4,4
+Ford,Bronco Sport,181-245 hp,190-275 lb-ft,8-speed automatic,4WD,23-25 mpg city / 28-32 mpg highway,4,"$26,820-$38,160",2021,SUV,Gas I3/I4,3/4
+Chevrolet,Camaro,275-650,295-650,"Manual, Automatic",RWD,16-23 mpg,2,"$25,000-$72,000",2010-2021,Coupe,Gas,"4, 6, 2008"
+Chevrolet,Corvette,490-755,465-715,"Manual, Automatic",RWD,15-23 mpg,2,"$60,000-$125,000",1953-2021,"Coupe, Convertible",Gas,"6, 8"
+Chevrolet,Spark,98,94,CVT,FWD,30-33 mpg,4,"$13,400-$16,800",2013-2021,Hatchback,Gas,4
+Chevrolet,Bolt EV,200,266,Electric,FWD,118 mpg-e,4,"$36,500-$41,700",2017-2021,Hatchback,Electric,N/A
+Chevrolet,Equinox,170-252,203-260,Automatic,FWD/AWD,22-28 mpg,4/5,"$25,000-$35,000",2005-2021,SUV,Gas,"4, 6"
+Chevrolet,Suburban,355,383,Automatic,RWD/4WD,15-20 mpg,4/5/6/8,"$51,700-$76,000",1935-2021,SUV,Gas,"6, 8"
+Chevrolet,Tahoe,355-420,383-460,Automatic,RWD/4WD,15-22 mpg,4/5/6/8,"$49,000-$75,000",1995-2021,SUV,Gas,"6, 8"
+Chevrolet,Silverado 1500,285-420,305-460,Automatic,RWD/4WD,16-23 mpg,2/4,"$28,000-$60,000",1999-2021,Truck,Gas,"6, 8"
+Chevrolet,Colorado,200-308,191-369,"Manual, Automatic",RWD/4WD,17-22 mpg,2/4,"$26,000-$45,000",2004-2021,Truck,"Gas, Diesel","4, 5, 2006"
+Chevrolet,Silverado HD (2500/3500),401-445,464-910,Automatic,RWD/4WD,13-20 mpg,2/4/2005,,,,,
+Nissan,Altima,188-248,180-273,CVT,FWD,28-32 mpg,4,"$25,225-$36,550",2019-2022,Sedan,Gas,4
+Nissan,Maxima,300,261,CVT,FWD,23-26 mpg,4,"$37,240-$44,030",2019-2022,Sedan,Gas,6
+Nissan,Sentra,149-188,146-180,CVT,FWD,28-33 mpg,4,"$20,460-$24,940",2019-2022,Sedan,Gas,4
+Nissan,Versa,122,114,CVT,FWD,32-35 mpg,4,"$15,650-$18,340",2019-2022,Sedan,Gas,4
+Nissan,Rogue,181,181,CVT,FWD or AWD,27-30 mpg,4,"$26,980-$34,430",2019-2022,SUV,Gas,4
+Nissan,Murano,260,240,CVT,FWD or AWD,20-24 mpg,4,"$32,610-$45,030",2019-2022,SUV,Gas,6
+Nissan,Pathfinder,284-284,259-259,9-speed automatic,FWD or AWD,20-24 mpg,4,"$32,940-$45,340",2019-2022,SUV,Gas,6
+Nissan,Armada,390,394,7-speed automatic,RWD or AWD,13-16 mpg,4,"$52,300-$69,050",2019-2022,SUV,Gas,8
+Nissan,GT-R,565-600,467-481,6-speed automatic,AWD,16-20 mpg,2,"$113,540-$210,740",2019-2022,Sports Car,Gas,6
+BMW,X1 sDrive28i,228 hp,258 lb-ft,8-speed Automatic,FWD,26/33 mpg,4,"$35,400",2020-2022,SUV,Turbocharged Gas I4,4
+BMW,X3 xDrive30i,248 hp,258 lb-ft,8-speed Automatic,AWD,23/29 mpg,4,"$43,000",2020-2022,SUV,Turbocharged Gas I4,4
+BMW,X5 xDrive40i,335 hp,330 lb-ft,8-speed Automatic,AWD,21/26 mpg,4,"$60,700",2020-2022,SUV,Turbocharged Gas I6,6
+BMW,330i Sedan,255 hp,295 lb-ft,8-speed Automatic,RWD,26/36 mpg,4,"$42,250",2020-2022,Sedan,Turbocharged Gas I4,4
+BMW,530i Sedan,248 hp,258 lb-ft,8-speed Automatic,RWD,24/34 mpg,4,"$56,400",2020-2022,Sedan,Turbocharged Gas I4,4
+BMW,740i Sedan,335 hp,330 lb-ft,8-speed Automatic,RWD,22/29 mpg,4,"$86,800",2020-2022,Sedan,Turbocharged Gas I6,6
+BMW,M4 Coupe,473 hp,406 lb-ft,6-speed Manual,RWD,16/23 mpg,2,"$73,100",2020-2022,Coupe,Twin-Turbocharged Gas I6,6
+BMW,M8 Convertible,600 hp,553 lb-ft,8-speed Automatic,AWD,15/21 mpg,2,"$142,500",2020-2022,Convertible,Twin-Turbocharged Gas V8,8
+Mercedes-Benz,C-Class,255 hp,273 lb-ft,9-speed automatic,RWD,24/35 mpg,4,"$43,200",2022,Sedan,Inline-4,4
+Mercedes-Benz,E-Class,255 hp,273 lb-ft,9-speed automatic,RWD,22/31 mpg,4,"$55,300",2022,Sedan,Inline-4,4
+Mercedes-Benz,S-Class,429 hp,384 lb-ft,9-speed automatic,AWD,16/24 mpg,4,"$109,800",2022,Sedan,V-8,8
+Mercedes-Benz,G-Class,416 hp,450 lb-ft,9-speed automatic,AWD,13/17 mpg,4,"$131,750",2022,SUV,V-8,8
+Mercedes-Benz,GLC-Class,255 hp,273 lb-ft,9-speed automatic,RWD,22/29 mpg,4,"$43,200",2022,SUV,Inline-4,4
+Audi,A3,184 hp,221 lb-ft,7-speed auto-shift manual,Front-wheel drive,28/36 mpg,4 doors,"$33,300",2019-present,Sedan,2.0 L 4-cylinder,4
+Audi,A4,201 hp,236 lb-ft,7-speed auto-shift manual,All-wheel drive,24/31 mpg,4 doors,"$39,100",2016-present,Sedan,2.0 L 4-cylinder,4
+Audi,A5,261 hp,273 lb-ft,7-speed auto-shift manual,All-wheel drive,24/31 mpg,2 doors,"$44,000",2018-present,Coupe,2.0 L 4-cylinder,4
+Audi,Q3,228 hp,258 lb-ft,8-speed automatic,All-wheel drive,19/27 mpg,4 doors,"$36,000",2019-present,SUV,2.0 L 4-cylinder,4
+Audi,Q5,261 hp,273 lb-ft,7-speed auto-shift manual,All-wheel drive,22/27 mpg,4 doors,"$44,100",2018-present,SUV,2.0 L 4-cylinder,4
+Audi,Q7,248 hp,273 lb-ft,8-speed automatic,All-wheel drive,19/23 mpg,4 doors,"$54,950",2017-present,SUV,2.0 L 4-cylinder,4
+Volkswagen,Golf,110-292,147-295,"Automatic, Manual","FWD, AWD",23-34 mpg,"2, 4","$23,195",1974-2022,Hatchback,"Gas, Diesel","4, 6"
+Volkswagen,Jetta,147-228,184-258,"Automatic, Manual",FWD,25-36 mpg,4,"$18,995",1980-2022,Sedan,Gas,"4, 6"
+Volkswagen,Passat,174-276,206-295,"Automatic, Manual",FWD,23-34 mpg,"4, 5","$24,990",1973-2022,Sedan,"Gas, Diesel","4, 6, 2008"
+Volkswagen,Atlas,235-276,258-266,Automatic,"FWD, AWD",18-22 mpg,"4, 5, 2007","$31,545",2018-2022,SUV,"Gas, Hybrid","4, 6, 2008"
+Volkswagen,Tiguan,184-268,221-258,Automatic,"FWD, AWD",21-29 mpg,"4, 5, 2007","$25,245",2007-2022,SUV,Gas,"4, 6"
+Porsche,718 Boxster,300 hp,280 lb-ft,6-speed manual,RWD,21/28 mpg,2,"$62,000",2017-2021,Convertible,Turbocharged flat-4,4
+Porsche,718 Cayman,300 hp,280 lb-ft,6-speed manual,RWD,21/28 mpg,2,"$61,500",2017-2021,Coupe,Turbocharged flat-4,4
+Porsche,911,379 hp,331 lb-ft,8-speed PDK,AWD,20/29 mpg,2,"$101,200",2020-2021,Coupe/Convertible,Twin-turbocharged flat-6,6
+Porsche,Panamera,325 hp,331 lb-ft,8-speed PDK,AWD,21/27 mpg,4,"$87,200",2020-2021,Sedan,Turbocharged V6,6
+Porsche,Cayenne,335 hp,332 lb-ft,8-speed Tiptronic S,AWD,19/23 mpg,4,"$67,500",2020-2021,SUV,Turbocharged V6,6
+Porsche,Macan,248 hp,273 lb-ft,7-speed PDK,AWD,19/23 mpg,4,"$52,100",2020-2021,SUV,Turbocharged inline-4,4
+Rolls-Royce,Ghost,563,605 lb-ft,8-Speed Automatic,RWD,18 MPG,4,"$332,500",2010-2021,Sedan,V12,12
+Rolls-Royce,Wraith,624,590 lb-ft,8-Speed Automatic,RWD,14 MPG,2,"$338,700",2014-2021,Coupe,V12,12
+Rolls-Royce,Dawn,563,605 lb-ft,8-Speed Automatic,RWD,18 MPG,4,"$346,300",2016-2021,Convertible,V12,12
+Rolls-Royce,Phantom,563,664 lb-ft,8-Speed Automatic,RWD,14 MPG,4,"$455,000",2004-2021,Sedan,V12,12
+Rolls-Royce,Cullinan,563,627 lb-ft,8-Speed Automatic,AWD,14 MPG,4,"$341,125",2019-2021,SUV,V12,12
+McLaren,540C,533 hp,398 lb-ft,7-speed automatic,RWD,22 mpg combined,2,"$160,000",2016-2018,Coupe,V8,8
+McLaren,570S,562 hp,443 lb-ft,7-speed automatic,RWD,21 mpg combined,2,"$192,500",2016-2018,Coupe,V8,8
+McLaren,570GT,562 hp,443 lb-ft,7-speed automatic,RWD,20 mpg combined,2,"$202,950",2017-2018,Coupe,V8,8
+McLaren,600LT,592 hp,457 lb-ft,7-speed automatic,RWD,19 mpg combined,2,"$242,500",2019,Coupe,V8,8
+McLaren,720S,710 hp,568 lb-ft,7-speed automatic,RWD,18 mpg combined,2,"$299,000",2018-2020,Coupe,V8,8
+McLaren,Artura,671 hp,531 lb-ft,8-speed automatic,RWD,21 mpg combined,2,"$225,000",2022- present,Coupe,V6,6
+Lexus,ES,203-302,184-267 lb-ft,Automatic,FWD,25-44 mpg,4,"$39,900-$48,900",1989-Present,Sedan,Gas/Electric,4/6
+Lexus,IS,241-311,258-280 lb-ft,Automatic,RWD/AWD,22-32 mpg,4,"$39,050-$45,100",1998-Present,Sedan,Gas,4/6
+Lexus,GS,241-311,258-280 lb-ft,Automatic,RWD/AWD,20-28 mpg,4,"$51,065-$52,760",1993-2020,Sedan,Gas,6/8
+Lexus,LS,416-471,442-398 lb-ft,Automatic,RWD/AWD,18-28 mpg,4,"$76,000-$82,825",1989-Present,Sedan,Gas/Hybrid,6/8
+Lexus,UX,169-181,151-151 lb-ft,CVT,FWD/AWD,29-39 mpg,4,"$32,900-$40,900",2019-Present,SUV,Gas/Hybrid,4
+Lexus,NX,235-239,258 lb-ft,Automatic,FWD/AWD,22-33 mpg,4,"$38,935-$47,770",2015-Present,SUV,Gas/Hybrid,4
+Lexus,RX,290-308,263-268 lb-ft,Automatic,FWD/AWD,19-31 mpg,4/5,"$45,070-$50,620",1998-Present,SUV,Gas/Hybrid,6/8
+Lexus,GX,301,329 lb-ft,Automatic,4WD,15-18 mpg,4/5,"$54,225-$64,365",2003-Present,SUV,Gas,8
+Lexus,LX,383,403 lb-ft,Automatic,4WD,12-16 mpg,4/5,"$89,080-$99,710",1996-Present,SUV,Gas,8
+Hyundai,Elantra,147 - 201,132 - 195,"Manual, Automatic, CVT",FWD,33/43 mpg,4,"$19,650 - $28,100",2017 - 2022,Sedan,Inline-4,4
+Hyundai,Sonata,191 - 290,181 - 311,"Automatic, Dual-Clutch","FWD, AWD",25/38 mpg,4,"$24,100 - $34,850",2018 - 2022,Sedan,"Inline-4, Inline-4 Hybrid, Inline-6","4, 6"
+Hyundai,Tucson,161 - 181,150 - 175,"Automatic, Dual-Clutch","FWD, AWD",23/33 mpg,4,"$24,950 - $37,350",2016 - 2022,SUV,"Inline-4, Inline-4 Hybrid",4
+Hyundai,Santa Fe,191 - 277,181 - 311,"Automatic, Dual-Clutch","FWD, AWD",21/28 mpg,4,"$28,025 - $43,200",2019 - 2022,SUV,"Inline-4, Inline-4 Hybrid, V6","4, 6"
+Hyundai,Kona,147 - 195,132 - 195,"Automatic, Dual-Clutch","FWD, AWD",26/30 mpg,4,"$20,500 - $29,400",2018 - 2022,SUV,"Inline-4, Inline-4 EV",4
+Hyundai,Accent,120,113,CVT,FWD,33/41 mpg,4,"$17,900",2019-2021,Sedan,Gas,4
+Hyundai,Palisade,291,262,8-speed automatic,FWD,19/26 mpg,4,"$33,700",2022,SUV,Gas,6
+Kia,Forte,147 hp,132 lb-ft,CVT or 6-speed manual,FWD,31/41 mpg,4,"$17,890 - $28,390",2019 - 2022,Sedan,2.0L 4-cylinder or 1.6L turbocharged 4-cylinder,4
+Kia,Optima,185 hp - 290 hp,178 lb-ft - 311 lb-ft,6-speed automatic or 7-speed dual-clutch,FWD or AWD,24/33 mpg - 27/37 mpg,4,"$24,355 - $32,790",2019 - 2021,Sedan,"2.4L 4-cylinder, 1.6L turbocharged 4-cylinder, or 2.0L turbocharged 4-cylinder",4
+Kia,Stinger,255 hp - 368 hp,260 lb-ft - 376 lb-ft,8-speed automatic,RWD or AWD,17/25 mpg - 22/29 mpg,4,"$36,090 - $53,250",2018 - 2022,Sedan,2.0L turbocharged 4-cylinder or 3.3L twin-turbocharged V6,4 or 6
+Kia,Sorento,191 hp - 281 hp,181 lb-ft - 311 lb-ft,6-speed automatic or 8-speed automatic,FWD or AWD,21/29 mpg - 22/29 mpg,4 or 5,"$29,390 - $42,590",2019 - 2022,SUV,"2.4L 4-cylinder, 2.5L turbocharged 4-cylinder, or 3.3L V6",4 or 6
+Kia,Soul,147 hp - 201 hp,132 lb-ft - 195 lb-ft,"6-speed manual, CVT, or 7-speed dual-clutch",FWD,27/33 mpg - 29/35 mpg,4,"$19,190 - $28,350",2020 - 2022,Hatchback,2.0L 4-cylinder or 1.6L turbocharged 4-cylinder,4
+Kia,Telluride,291 hp,262 lb-ft,8-speed automatic,FWD or AWD,19/26 mpg - 20/27 mpg,4 or 5,"$32,790 - $47,390",2020 - 2022,SUV,3.8L V6,6
+Mazda,MX-5,181,151,Manual,RWD,29/34 mpg,2,"$26,830",2019-2022,Convertible,Gasoline,4
+Mazda,Mazda3,155-250,150-320,"Automatic, Manual","FWD, AWD",26-36 mpg,"4, 5","$20,650",2019-2022,"Sedan, Hatchback",Gasoline,"4, 6"
+Mazda,Mazda6,187-250,186-310,"Automatic, Manual",FWD,23-31 mpg,"4, 5","$24,325",2019-2022,Sedan,Gasoline,"4, 6"
+Mazda,CX-3,146,146,Automatic,"FWD, AWD",29-34 mpg,4,"$20,640",2019-2022,SUV,Gasoline,4
+Mazda,CX-5,187-227,186-310,Automatic,"FWD, AWD",24-31 mpg,"4, 5","$25,270",2019-2022,SUV,Gasoline,"4, 6"
+Mazda,CX-9,227-250,310,Automatic,"FWD, AWD",22-26 mpg,"4, 6, 2007","$35,060",2019-2022,SUV,Gasoline,"4, 6"
+Subaru,Ascent,260 hp,277 lb-ft,CVT,AWD,23/27 mpg,4,"$32,295",2019-2022,SUV,H4,4
+Subaru,Impreza,152 hp,145 lb-ft,5-speed manual,AWD,24/31 mpg,4/5,"$18,795",2019-2022,Hatchback,H4,4
+Subaru,Legacy,182 hp,176 lb-ft,CVT,AWD,27/35 mpg,4/5,"$22,995",2019-2022,Sedan,H4,4
+Subaru,Outback,182 hp,176 lb-ft,CVT,AWD,26/33 mpg,4/5,"$26,795",2019-2022,Wagon/SUV,H4,4
+Subaru,BRZ,205 hp,156 lb-ft,6-speed manual,RWD,21/29 mpg,2,"$28,845",2019-2022,Coupe,H4,4
+Subaru,WRX,268 hp,258 lb-ft,6-speed manual,AWD,20/27 mpg,4,"$27,495",2019-2022,Sedan,H4,4
+Subaru,Crosstrek,152 hp,145 lb-ft,CVT,AWD,27/34 mpg,4/5,"$22,245",2019-2022,Wagon/SUV,H4,4
+Subaru,Crosstrek Hybrid,137 hp (gasoline engine) 118 hp (electric motor),134 lb-ft,CVT,AWD,35/90 mpg,4/5,"$36,395",2019-2022,Wagon/SUV,H4,4
+Mitsubishi,Outlander,166 hp,162 lb-ft,CVT,"FWD, AWD",27/30 mpg,4,"$26,570 - $34,420",2014 - Present,SUV,2.4L I4,4
+Mitsubishi,Eclipse Cross,152 hp,184 lb-ft,CVT,"FWD, AWD",25/28 mpg,4,"$24,590 - $31,490",2018 - Present,SUV,1.5L I4,4
+Mitsubishi,Mirage,78 hp,74 lb-ft,CVT,FWD,36/43 mpg,4,"$14,295 - $16,995",2014 - Present,Hatchback,1.2L I3,3
+Mitsubishi,Mirage G4,78 hp,74 lb-ft,CVT,FWD,35/41 mpg,4,"$15,295 - $16,995",2017 - Present,Sedan,1.2L I3,3
+Mitsubishi,Outlander Sport,148 hp,145 lb-ft,CVT,"FWD, AWD",24/30 mpg,4,"$23,590 - $25,590",2011 - Present,SUV,2.0L I4,4
+Tesla,Model S,670-1020 hp,713-920 lb-ft,Single-Speed Automatic,AWD,326-402 miles per charge,4,"$79,990-$169,990",2012-2023,Sedan,Electric,0
+Tesla,Model 3,283-450 hp,307-471 lb-ft,Single-Speed Automatic,RWD or AWD,263-358 miles per charge,4,"$39,990-$59,990",2017-2023,Sedan,Electric,0
+Tesla,Model X,670-1020 hp,713-920 lb-ft,Single-Speed Automatic,AWD,299-371 miles per charge,4 or 5,"$89,990-$139,990",2015-2023,SUV,Electric,0
+Tesla,Model Y,283-450 hp,307-471 lb-ft,Single-Speed Automatic,RWD or AWD,244-326 miles per charge,4 or 5,"$41,190-$63,190",2020-2023,SUV,Electric,0
+Dodge,Challenger,375-797 hp,410-470 lb-ft,8-speed automatic,RWD/AWD,19/30 mpg,2-4,"Starting at $31,490",2023-2024,Coupe,V6/V8/HEMI,6-8
+Dodge,Charger,370-797 hp,395-470 lb-ft,8-speed automatic,RWD/AWD,19/30 mpg,4,"Starting at $30,290",2023-2024,Sedan,V6/V8/HEMI,6-8
+Dodge,Durango,295-395 hp,260-410 lb-ft,8-speed automatic,RWD/4WD,17/25 mpg,5,"Starting at $33,090",2023-2024,SUV,V6/V8,6-8
+Dodge,Journey,174-292 hp,166-260 lb-ft,9-speed automatic,FWD/AWD,21/31 mpg,5,"Starting at $23,690",2023-2024,SUV,4-cylinder,4
+Dodge,RAM 1500,295-410 hp,330-429 lb-ft,8-speed automatic,RWD/4WD,16/23 mpg,2-4,"Starting at $29,995",2023-2024,Truck,V6/V8,6-8
+Dodge,RAM 2500,350-420 hp,460-485 lb-ft,6-speed automatic,RWD/4WD,14/20 mpg,2-4,"Starting at $35,595",2023-2024,Truck,V6/V8,6-8
+Dodge,RAM 3500,375-420 hp,460-485 lb-ft,6-speed automatic,RWD/4WD,14/20 mpg,2-4,"Starting at $39,145",2023-2024,Truck,V6/V8,6-8
+Ram,1500,295-410 hp,330-429 lb-ft,8-speed automatic,RWD/4WD,16/23 mpg,2-4,"Starting at $29,995",2023-2024,Truck,V6/V8,6-8
+Ram,2500,350-420 hp,460-485 lb-ft,6-speed automatic,RWD/4WD,14/20 mpg,2-4,"Starting at $35,595",2023-2024,Truck,V6/V8,6-8
+Ram,3500,375-420 hp,460-485 lb-ft,6-speed automatic,RWD/4WD,14/20 mpg,2-4,"Starting at $39,145",2023-2024,Truck,V6/V8,6-8
+Ram,TRX,702 hp,650 lb-ft,8-speed automatic,RWD/4WD,12/17 mpg,2-4,"Starting at $79,995",2023-2024,Truck,V8,8
+Volvo,XC40,187 hp,221 lb-ft,8-speed automatic,FWD/AWD,23/32 mpg,5,"Starting at $33,100",2023-2024,SUV,4-cylinder,4
+Volvo,XC60,250 hp,258 lb-ft,8-speed automatic,FWD/AWD,22/30 mpg,5,"Starting at $41,900",2023-2024,SUV,4-cylinder,4
+Volvo,XC90,250 hp,295 lb-ft,8-speed automatic,FWD/AWD,19/27 mpg,5,"Starting at $49,900",2023-2024,SUV,4-cylinder,4
+Volvo,S60,250 hp,258 lb-ft,8-speed automatic,FWD/AWD,23/31 mpg,4,"Starting at $39,900",2023-2024,Sedan,4-cylinder,4
+Volvo,V60,250 hp,258 lb-ft,8-speed automatic,FWD/AWD,23/31 mpg,5,"Starting at $41,900",2023-2024,Wagon,4-cylinder,4
+Volvo,C40 Recharge,408 hp,487 lb-ft,Single-speed automatic,FWD,79 MPGe,5,"Starting at $45,900",2023-2024,SUV,Electric,0
+Volvo,XC40 Recharge,408 hp,487 lb-ft,Single-speed automatic,FWD,79 MPGe,5,"Starting at $49,900",2023-2024,SUV,Electric,0
+Volvo,Polestar 2,408 hp,487 lb-ft,Single-speed automatic,RWD,87 MPGe,5,"Starting at $45,900",2023-2024,Sedan,Electric,0
+Land Rover,Defender,296 hp,317 lb-ft,8-speed automatic,RWD/4WD,19/24 mpg,5,"Starting at $42,250",2023-2024,SUV,4-cylinder,6
+Land Rover,Discovery,355 hp,369 lb-ft,8-speed automatic,RWD/4WD,18/25 mpg,5,"Starting at $55,950",2023-2024,SUV,V6,6
+Land Rover,Discovery Sport,247 hp,269 lb-ft,9-speed automatic,FWD/AWD,22/29 mpg,5,"Starting at $40,900",2023-2024,SUV,4-cylinder,4
+Land Rover,Range Rover,395 hp,406 lb-ft,8-speed automatic,RWD/4WD,18/25 mpg,5,"Starting at $87,995",2023-2024,SUV,V6,6
+Land Rover,Range Rover Evoque,247 hp,269 lb-ft,9-speed automatic,FWD/AWD,22/29 mpg,5,"Starting at $42,650",2023-2024,SUV,4-cylinder,4
+Land Rover,Range Rover Sport,395 hp,406 lb-ft,8-speed automatic,RWD/4WD,18/25 mpg,5,"Starting at $68,250",2023-2024,SUV,V6,6
+Jaguar,I-PACE,395 hp,516 lb-ft,Single-speed automatic,Rear-wheel drive,79 MPGe,5,"Starting at $69,900",2023-2024,SUV,Electric,0
+Jaguar,F-PACE,296 hp,317 lb-ft,8-speed automatic,All-wheel drive,20/27 mpg,5,"Starting at $45,900",2023-2024,SUV,4-cylinder,6
+Jaguar,F-TYPE,380 hp,339 lb-ft,8-speed automatic,Rear-wheel drive,18/25 mpg,2,"Starting at $65,000",2023-2024,Coupe,V6,6
+Jaguar,XE,296 hp,317 lb-ft,8-speed automatic,Rear-wheel drive,22/30 mpg,4,"Starting at $39,900",2023-2024,Sedan,4-cylinder,6
+Jaguar,XF,380 hp,339 lb-ft,8-speed automatic,Rear-wheel drive,19/26 mpg,4,"Starting at $49,900",2023-2024,Sedan,V6,6
+Fiat,500,70 hp,74 lb-ft,5-speed manual,Front-wheel drive,29/38 mpg,3,"Starting at $19,990",2023-2024,Hatchback,4-cylinder,4
+Fiat,500X,160 hp,177 lb-ft,9-speed automatic,Front-wheel drive,24/31 mpg,5,"Starting at $24,990",2023-2024,SUV,4-cylinder,4
+Fiat,124 Spider,160 hp,184 lb-ft,6-speed manual,Rear-wheel drive,24/31 mpg,2,"Starting at $24,990",2023-2024,Convertible,4-cylinder,4
+Alfa Romeo,Giulia,280 hp,306 lb-ft,8-speed automatic,Rear-wheel drive,23/32 mpg,4,"Starting at $39,900",2023-2024,Sedan,4-cylinder,4
+Alfa Romeo,Giulia Quadrifoglio,505 hp,443 lb-ft,8-speed automatic,Rear-wheel drive,18/23 mpg,4,"Starting at $70,900",2023-2024,Sedan,V6,6
+Alfa Romeo,Stelvio,280 hp,306 lb-ft,8-speed automatic,All-wheel drive,21/27 mpg,5,"Starting at $41,900",2023-2024,SUV,4-cylinder,4
+Alfa Romeo,Stelvio Quadrifoglio,505 hp,443 lb-ft,8-speed automatic,All-wheel drive,18/23 mpg,5,"Starting at $79,900",2023-2024,SUV,V6,6
+Peugeot,208,108 hp,138 lb-ft,5-speed manual,Front-wheel drive,27/37 mpg,5,"Starting at $18,000",2023-2024,Hatchback,3-cylinder,3
+Peugeot,2008,175 hp,195 lb-ft,8-speed automatic,Front-wheel drive,25/33 mpg,5,"Starting at $24,000",2023-2024,SUV,3-cylinder,3
+Peugeot,308,158 hp,184 lb-ft,8-speed automatic,Front-wheel drive,27/37 mpg,5,"Starting at $26,000",2023-2024,Sedan,4-cylinder,4
+Peugeot,3008,180 hp,199 lb-ft,8-speed automatic,Front-wheel drive,25/33 mpg,5,"Starting at $30,000",2023-2024,SUV,4-cylinder,4
+Peugeot,508,272 hp,332 lb-ft,8-speed automatic,Rear-wheel drive,22/30 mpg,5,"Starting at $34,000",2023-2024,Sedan,V6,6
+Peugeot,5008,180 hp,199 lb-ft,8-speed automatic,Front-wheel drive,25/33 mpg,7,"Starting at $36,000",2023-2024,SUV,4-cylinder,4
+Citroën,C1,70 hp,74 lb-ft,5-speed manual,Front-wheel drive,32.5/42.5 mpg,3,"Starting at $15,490",2023-2024,Hatchback,3-cylinder,3
+Citroën,C3,109 hp,122 lb-ft,5-speed manual,Front-wheel drive,30.1/40.9 mpg,5,"Starting at $18,990",2023-2024,Hatchback,3-cylinder,3
+Citroën,C3 Aircross,119 hp,138 lb-ft,8-speed automatic,Front-wheel drive,27/38 mpg,5,"Starting at $23,990",2023-2024,SUV,3-cylinder,3
+Citroën,C4,153 hp,170 lb-ft,8-speed automatic,Front-wheel drive,28/39 mpg,5,"Starting at $24,990",2023-2024,Sedan,4-cylinder,4
+Citroën,C5 Aircross,175 hp,195 lb-ft,8-speed automatic,Front-wheel drive,25/33 mpg,5,"Starting at $28,990",2023-2024,SUV,4-cylinder,4
+Renault,Arkana,148 hp,162 lb-ft,7-speed DCT,Front-wheel drive,26/35 mpg,5,"Starting at $27,990",2023-2024,SUV,4-cylinder,4
+Renault,Captur,154 hp,184 lb-ft,7-speed DCT,Front-wheel drive,28/38 mpg,5,"Starting at $23,990",2023-2024,SUV,4-cylinder,4
+Renault,Clio,138 hp,148 lb-ft,6-speed manual,Front-wheel drive,30.1/40.9 mpg,5,"Starting at $22,990",2023-2024,Hatchback,4-cylinder,4
+Renault,Megane,188 hp,221 lb-ft,7-speed DCT,Front-wheel drive,28/38 mpg,5,"Starting at $26,990",2023-2024,Sedan,4-cylinder,4
+Renault,Zoe,134 hp,184 lb-ft,Single-speed automatic,Rear-wheel drive,119 MPGe,5,"Starting at $29,990",2023-2024,Hatchback,Electric,0
+Skoda,Fabia,95 hp,118 lb-ft,5-speed manual,Front-wheel drive,28/39 mpg,5,"Starting at $17,990",2023-2024,Hatchback,3-cylinder,3
+Skoda,Scala,110 hp,148 lb-ft,6-speed manual,Front-wheel drive,28/39 mpg,5,"Starting at $22,990",2023-2024,Hatchback,4-cylinder,4
+Skoda,Octavia,148 hp,184 lb-ft,7-speed DSG,Front-wheel drive,28/39 mpg,5,"Starting at $26,990",2023-2024,Sedan,4-cylinder,4
+Skoda,Superb,188 hp,221 lb-ft,7-speed DSG,Front-wheel drive,25/33 mpg,5,"Starting at $32,990",2023-2024,Sedan,4-cylinder,4
+Skoda,Karoq,148 hp,184 lb-ft,7-speed DSG,Front-wheel drive,25/33 mpg,5,"Starting at $27,990",2023-2024,SUV,4-cylinder,4
+Skoda,Kodiaq,188 hp,221 lb-ft,7-speed DSG,Front-wheel drive,21/28 mpg,7,"Starting at $32,990",2023-2024,SUV,4-cylinder,4
+Skoda,Enyaq iV,201 hp,221 lb-ft,Single-speed automatic,Rear-wheel drive,77 MPGe,5,"Starting at $39,990",2023-2024,SUV,Electric,0
+SEAT,Arona,110 hp,148 lb-ft,6-speed manual,Front-wheel drive,28/39 mpg,5,"Starting at $22,990",2023-2024,SUV,4-cylinder,4
+SEAT,Ibiza,110 hp,148 lb-ft,6-speed manual,Front-wheel drive,28/39 mpg,5,"Starting at $19,990",2023-2024,Hatchback,4-cylinder,4
+SEAT,Leon,148 hp,184 lb-ft,7-speed DSG,Front-wheel drive,28/39 mpg,5,"Starting at $26,990",2023-2024,Sedan,4-cylinder,4
+SEAT,Leon Sportstourer,148 hp,184 lb-ft,7-speed DSG,Front-wheel drive,28/39 mpg,5,"Starting at $28,990",2023-2024,Wagon,4-cylinder,4
+SEAT,Tarraco,188 hp,221 lb-ft,7-speed DSG,Front-wheel drive,21/28 mpg,7,"Starting at $32,990",2023-2024,SUV,4-cylinder,4
+SEAT,Mii,70 hp,74 lb-ft,5-speed manual,Front-wheel drive,32.5/42.5 mpg,3,"Starting at $15,490",2023-2024,Hatchback,3-cylinder,3
+SEAT,Born,201 hp,221 lb-ft,Single-speed automatic,Rear-wheel drive,77 MPGe,5,"Starting at $39,990",2023-2024,Hatchback,Electric,0
+Opel/Vauxhall,Adam,70 hp,74 lb-ft,5-speed manual,Front-wheel drive,32.5/42.5 mpg,3,"Starting at $15,490",2023-2024,Hatchback,3-cylinder,3
+Opel/Vauxhall,Corsa,108 hp,138 lb-ft,5-speed manual,Front-wheel drive,27/37 mpg,5,"Starting at $18,000",2023-2024,Hatchback,3-cylinder,3
+Opel/Vauxhall,Astra,158 hp,184 lb-ft,8-speed automatic,Front-wheel drive,27/37 mpg,5,"Starting at $26,000",2023-2024,Sedan,4-cylinder,4
+Opel/Vauxhall,Insignia,272 hp,332 lb-ft,8-speed automatic,Rear-wheel drive,22/30 mpg,5,"Starting at $34,000",2023-2024,Sedan,V6,6
+Opel/Vauxhall,Mokka,175 hp,195 lb-ft,8-speed automatic,Front-wheel drive,25/33 mpg,5,"Starting at $24,000",2023-2024,SUV,3-cylinder,3
+Opel/Vauxhall,Grandland,180 hp,199 lb-ft,8-speed automatic,Front-wheel drive,25/33 mpg,5,"Starting at $30,000",2023-2024,SUV,4-cylinder,4
+Opel/Vauxhall,Crossland,119 hp,138 lb-ft,8-speed automatic,Front-wheel drive,27/38 mpg,5,"Starting at $23,990",2023-2024,SUV,3-cylinder,3
+Opel/Vauxhall,Combo,108 hp,138 lb-ft,5-speed manual,Front-wheel drive,27/37 mpg,5,"Starting at $18,000",2023-2024,Van,3-cylinder,3
+Opel/Vauxhall,Vivaro,148 hp,184 lb-ft,8-speed automatic,Front-wheel drive,25/33 mpg,5,"Starting at $27,990",2023-2024,Van,4-cylinder,4
+Opel/Vauxhall,Movano,180 hp,199 lb-ft,8-speed automatic,Front-wheel drive,21/28 mpg,7,"Starting at $32,990",2023-2024,Van,4-cylinder,4
+Mini,Cooper,134 hp,162 lb-ft,7-speed dual-clutch automatic,Front-wheel drive,28/37 mpg,3,"Starting at $24,000",2023-2024,Hatchback,3-cylinder,3
+Mini,Cooper S,189 hp,207 lb-ft,7-speed dual-clutch automatic,Front-wheel drive,27/36 mpg,3,"Starting at $28,000",2023-2024,Hatchback,4-cylinder,4
+Mini,John Cooper Works,228 hp,236 lb-ft,8-speed automatic,Front-wheel drive,25/33 mpg,3,"Starting at $33,000",2023-2024,Hatchback,4-cylinder,4
+Mini,Cooper SE,181 hp,199 lb-ft,Single-speed automatic,Rear-wheel drive,119 MPGe,5,"Starting at $30,000",2023-2024,Hatchback,Electric,0
+Mini,Countryman,189 hp,207 lb-ft,7-speed dual-clutch automatic,Front-wheel drive,24/31 mpg,5,"Starting at $29,000",2023-2024,SUV,4-cylinder,4
+Mini,Clubman,189 hp,207 lb-ft,7-speed dual-clutch automatic,All-wheel drive,24/31 mpg,5,"Starting at $32,000",2023-2024,Wagon,4-cylinder,4
+Mini,Paceman,189 hp,207 lb-ft,7-speed dual-clutch automatic,All-wheel drive,24/31 mpg,5,"Starting at $33,000",2023-2024,SUV,4-cylinder,4
+Mini,Countryman John Cooper Works,301 hp,332 lb-ft,8-speed automatic,All-wheel drive,22/29 mpg,5,"Starting at $40,000",2023-2024,SUV,4-cylinder,4
+Saab,9-5,250 hp,273 lb-ft,6-speed automatic,Front-wheel drive,19/28 mpg,4,"Starting at $37,990",2011,Sedan,turbocharged inline-4,4
+Saab,9-3,227 hp,236 lb-ft,6-speed automatic,Front-wheel drive,20/29 mpg,4,"Starting at $32,990",2011,Sedan,turbocharged inline-4,4
+Saab,9-3 Convertible,227 hp,236 lb-ft,6-speed automatic,Front-wheel drive,19/28 mpg,2,"Starting at $39,990",2011,Convertible,turbocharged inline-4,4
+Saab,9-5 SportCombi,250 hp,273 lb-ft,6-speed automatic,All-wheel drive,18/26 mpg,5,"Starting at $42,990",2011,Wagon,turbocharged inline-4,4
+Dodge,Grand Caravan,283 hp,260 lb-ft,Automatic,FWD,20 mpg,4 or 5,"$28,530-$34,490",1984-2020,Van,Gas V6,6
+Dodge,Challenger SRT Demon,840 hp,770 lb-ft,Automatic,RWD,13 mpg,2,"$84,995",2018,Coupe,Gas V8,8
+Dodge,Viper,645-640 hp,600-600 lb-ft,Manual,RWD,13-21 mpg,2,"$87,895-$90,390",1992-2017,Coupe/Convertible,Gas V10,10
+Bugatti,Chiron,"1,500 hp","1,180 lb-ft",7-speed dual-clutch automatic,All-wheel drive,11 mpg,2,"$3,000,000",2016-Present,Coupe,W16,16
+Bugatti,Veyron,"1,001 hp",750 lb-ft,7-speed dual-clutch automatic,All-wheel drive,9 mpg,2,"$1,700,000",2005-2015,Coupe,W16,16
+Bugatti,EB 110,552 hp,451 lb-ft,4-speed automatic,All-wheel drive,13 mpg,2,"$1,100,000",1991-1995,Coupe,W16,16
+Bugatti,EB 110 SS,611 hp,451 lb-ft,4-speed automatic,All-wheel drive,13 mpg,2,"$1,300,000",1993-1995,Coupe,W16,16
+Maserati,Ghibli,345 hp,369 lb-ft,8-speed shiftable automatic,RWD,19/26 mpg,4,"$74,390",2014 - present,Sedan,Twin-turbocharged V6,6
+Maserati,Quattroporte,424 hp,428 lb-ft,8-speed shiftable automatic,RWD,16/23 mpg,4,"$102,390",2013 - present,Sedan,Twin-turbocharged V6 or V8,6 or 8
+Maserati,Levante,345 hp,369 lb-ft,8-speed shiftable automatic,AWD,16/22 mpg,4,"$77,890",2017 - present,SUV,Twin-turbocharged V6,6
+Maserati,GranTurismo,454 hp,384 lb-ft,6-speed shiftable automatic,RWD,13/20 mpg,2,"$134,300",2008 - present,Coupe/Convertible,Naturally aspirated V8,8
+Lancia,Stratos HF,190 hp,166 lb-ft,5-speed manual,Rear-wheel drive,N/A,2,N/A,1973-1978,Coupe,2.4L V6,6
+Lancia,Delta Integrale,215 hp,231 lb-ft,5-speed manual,All-wheel drive,N/A,5,N/A,1987-1994,Hatchback,2.0L turbocharged inline-4,4
+Lancia,Thema 8.32,215 hp,213 lb-ft,5-speed manual,Front-wheel drive,N/A,4,N/A,1986-1994,Sedan,3.0L V8,8
+Lancia,Aurelia B24,118 hp,136 lb-ft,4-speed manual,Rear-wheel drive,N/A,2,N/A,1954-1955,"Coupe, Convertible",2.5L V6,6
+Lancia,Fulvia,115 hp,108 lb-ft,5-speed manual,Front-wheel drive,N/A,2,N/A,1963-1976,Coupe,1.3L inline-4,4
+Pagani,Huayra,730 hp,738 lb-ft,7-speed sequential manual,Rear-wheel drive,12 mpg,2,$2.6 million,2011-Present,Coupe,V12,12
+Pagani,Zonda,760 hp,780 lb-ft,6-speed sequential manual,Rear-wheel drive,10 mpg,2,$1.5 million,1999-2015,Coupe,V12,12
+Pagani,Huayra BC,789 hp,811 lb-ft,7-speed sequential manual,Rear-wheel drive,11 mpg,2,$3.0 million,2016-2018,Coupe,V12,12
+Pagani,Huayra R,851 hp,811 lb-ft,7-speed sequential manual,Rear-wheel drive,11 mpg,2,$2.6 million,2017-Present,Track Car,V12,12
+Pagani,Huayra Imola,827 hp,821 lb-ft,7-speed sequential manual,Rear-wheel drive,11 mpg,2,$3.2 million,2020-Present,Coupe,V12,12
+Koenigsegg,Gemera,"1,700 hp","1,700 lb-ft",9-speed multi-clutch automatic,All-wheel drive,20 mpg,4,$1.7 million,2022-Present,4-seater,Twin-turbocharged V8 + 3 electric motors,8
+Koenigsegg,Jesko,"1,600 hp","1,280 lb-ft",9-speed multi-clutch automatic,Rear-wheel drive,10 mpg,2,$2.8 million,2022-Present,Coupe,V8,8
+Koenigsegg,Regera,"1,500 hp","1,100 lb-ft",Koenigsegg Direct Drive,All-wheel drive,11 mpg,2,$2.2 million,2016-Present,Coupe,V8,8
+Koenigsegg,Agera RS,"1,176 hp","1,170 lb-ft",7-speed dual-clutch automatic,Rear-wheel drive,9 mpg,2,$2.5 million,2015-2018,Coupe,V8,8
+Koenigsegg,One:1,"1,360 hp","1,371 lb-ft",7-speed dual-clutch automatic,Rear-wheel drive,9 mpg,2,$2.5 million,2014-2016,Coupe,V8,8
+Koenigsegg,Agera S,"1,140 hp","1,100 lb-ft",7-speed dual-clutch automatic,Rear-wheel drive,9 mpg,2,$1.5 million,2013-2014,Coupe,V8,8
+Koenigsegg,Agera R,"1,115 hp","1,100 lb-ft",7-speed dual-clutch automatic,Rear-wheel drive,9 mpg,2,$1.6 million,2011-2013,Coupe,V8,8
+Koenigsegg,CCXR Trevita,"1,018 hp",885 lb-ft,7-speed dual-clutch automatic,Rear-wheel drive,9 mpg,2,$4.8 million,2007-2008,Coupe,V8,8
+Koenigsegg,CCX,806 hp,752 lb-ft,7-speed dual-clutch automatic,Rear-wheel drive,9 mpg,2,$1.1 million,2006-2007,Coupe,V8,8
+Koenigsegg,CCXR,806 hp,885 lb-ft,7-speed dual-clutch automatic,Rear-wheel drive,9 mpg,2,$1.6 million,2007-2008,Coupe,V8,8
+Koenigsegg,CC,806 hp,752 lb-ft,6-speed manual,Rear-wheel drive,9 mpg,2,"$600,000",2002-2004,Coupe,V8,8
+Koenigsegg,CC8S,806 hp,752 lb-ft,6-speed manual,Rear-wheel drive,9 mpg,2,"$750,000",2004-2006,Coupe,V8,8
+Genesis,G70,300 hp,295 lb-ft,8-speed automatic,Rear-wheel drive,23/32 mpg,4,"Starting at $35,900",2019-Present,Sedan,Inline-4,4
+Genesis,G80,375 hp,391 lb-ft,8-speed automatic,Rear-wheel drive or all-wheel drive,19/29 mpg,4,"Starting at $47,700",2020-Present,Sedan,V6,6
+Genesis,GV70,300 hp,295 lb-ft,8-speed automatic,Rear-wheel drive or all-wheel drive,22/29 mpg,5,"Starting at $42,250",2022-Present,SUV,Inline-4,4
+Genesis,GV80,375 hp,391 lb-ft,8-speed automatic,All-wheel drive,19/27 mpg,5,"Starting at $47,700",2021-Present,SUV,V6,6
+Genesis,GV90,375 hp,391 lb-ft,8-speed automatic,All-wheel drive,18/26 mpg,7,"Starting at $77,900",2023-Present,SUV,V6,6
+Polestar,Polestar 1,619 hp,738 lb-ft,Automatic,AWD,58 MPGe,2,"$155,000",2021-2022,Coupe,Electric,0
+Polestar,Polestar 2,408 hp,487 lb-ft,Single-speed direct drive,AWD,92 MPGe,4,"$59,900",2021-2022,Crossover,Electric,0
+Polestar,Polestar 3,476 hp,502 lb-ft,Single-speed automatic,All-wheel drive,111 MPGe,5,"Starting at $61,900",2022-Present,Sedan,Electric,0
+Lucid Motors,Lucid Air,819 hp,908 lb-ft,Single-speed automatic,All-wheel drive,520 miles,5,"Starting at $77,400",2022-Present,Sedan,Electric,0
+Lucid Motors,Lucid Air Dream Edition Performance,"1,111 hp","1,341 lb-ft",Single-speed automatic,All-wheel drive,483 miles,5,"Starting at $169,000",2022-Present,Sedan,Electric,0
+Rivian,R1T,835 hp,908 lb-ft,4-motor all-wheel drive,0-60 mph in 3 seconds,314 miles,5,"Starting at $67,500",2022-Present,Pickup truck,Electric,0
+Rivian,R1S,835 hp,908 lb-ft,4-motor all-wheel drive,0-60 mph in 3 seconds,314 miles,5,"Starting at $70,000",2022-Present,SUV,Electric,0
+Faraday Future,FF 91,1050 hp,1000 lb-ft,Single-speed automatic,All-wheel drive,405 miles,5,"Starting at $180,000",2023-Present,SUV,Electric,0
+Faraday Future,FF 91,1050 hp,1000 lb-ft,Single-speed automatic,All-wheel drive,405 miles,5,"Starting at $180,000",2023-Present,SUV,Electric,0
+Alpina,B3,455 hp,516 lb-ft,8-speed automatic,All-wheel drive,20/27 mpg,4,"Starting at $74,900",2023-Present,Sedan,Twin-turbocharged inline-6,6
+Alpina,B4,533 hp,553 lb-ft,8-speed automatic,All-wheel drive,19/26 mpg,5,"Starting at $84,900",2023-Present,Wagon,Twin-turbocharged inline-6,6
+Alpina,B5,533 hp,553 lb-ft,8-speed automatic,All-wheel drive,19/26 mpg,5,"Starting at $94,900",2023-Present,Sedan,Twin-turbocharged inline-6,6
+Alpina,B7,612 hp,590 lb-ft,8-speed automatic,All-wheel drive,17/24 mpg,5,"Starting at $139,900",2023-Present,Sedan,Twin-turbocharged V8,8
+Alpina,XB7,612 hp,590 lb-ft,8-speed automatic,All-wheel drive,17/24 mpg,7,"Starting at $149,900",2023-Present,SUV,Twin-turbocharged V8,8
+Cadillac,CT4,237 hp,295 lb-ft,8-speed automatic,Rear-wheel drive,22/32 mpg,4,"Starting at $33,295",2023-Present,Sedan,Turbocharged inline-4,4
+Cadillac,CT4-V,325 hp,380 lb-ft,10-speed automatic,All-wheel drive,19/29 mpg,4,"Starting at $46,295",2023-Present,Sedan,Twin-turbocharged inline-4,4
+Cadillac,CT5,237 hp,295 lb-ft,8-speed automatic,Rear-wheel drive,22/32 mpg,4,"Starting at $39,995",2023-Present,Sedan,Turbocharged inline-4,4
+Cadillac,CT5-V,360 hp,405 lb-ft,10-speed automatic,All-wheel drive,18/28 mpg,4,"Starting at $55,795",2023-Present,Sedan,Twin-turbocharged V6,6
+Cadillac,CT5-V Blackwing,668 hp,659 lb-ft,6-speed manual,Rear-wheel drive,16/25 mpg,2,"Starting at $84,995",2023-Present,Sedan,Naturally aspirated V8,8
+Cadillac,Escalade,420 hp,460 lb-ft,10-speed automatic,All-wheel drive,17/25 mpg,4,"Starting at $76,295",2023-Present,SUV,V8,8
+Cadillac,XT4,237 hp,295 lb-ft,9-speed automatic,Front-wheel drive or all-wheel drive,23/30 mpg,5,"Starting at $35,795",2023-Present,SUV,Turbocharged inline-4,4
+Cadillac,XT5,237 hp,295 lb-ft,9-speed automatic,Front-wheel drive or all-wheel drive,21/28 mpg,5,"Starting at $41,795",2023-Present,SUV,Turbocharged inline-4,4
+Cadillac,XT6,310 hp,271 lb-ft,10-speed automatic,All-wheel drive,19/26 mpg,7,"Starting at $59,995",2023-Present,SUV,Twin-turbocharged V6,6
+Caterham,Seven 170,170 hp,127 lb-ft,5-speed manual,Rear-wheel drive,36 mpg (city)/44 mpg (highway),2,"Starting at £27,995",2023-Present,Sports car,4-cylinder,4
+Caterham,Seven 270,270 hp,177 lb-ft,6-speed manual,Rear-wheel drive,32 mpg (city)/40 mpg (highway),2,"Starting at £31,995",2023-Present,Sports car,4-cylinder,4
+Caterham,Seven 360,360 hp,221 lb-ft,6-speed manual,Rear-wheel drive,29 mpg (city)/37 mpg (highway),2,"Starting at £36,995",2023-Present,Sports car,4-cylinder,4
+Caterham,Seven 420,420 hp,265 lb-ft,6-speed manual,Rear-wheel drive,27 mpg (city)/35 mpg (highway),2,"Starting at £41,995",2023-Present,Sports car,4-cylinder,4
+Caterham,Seven 620,620 hp,321 lb-ft,6-speed manual,Rear-wheel drive,25 mpg (city)/33 mpg (highway),2,"Starting at £54,995",2023-Present,Sports car,4-cylinder,4
+Chrysler,300,363 hp,394 lb-ft,8-speed automatic,Rear-wheel drive or all-wheel drive,19/31 mpg,4,"Starting at $32,145",2023-Present,Sedan,V6,6
+Chrysler,Pacifica,287 hp,262 lb-ft,9-speed automatic,Front-wheel drive or all-wheel drive,19/29 mpg,3,"Starting at $32,995",2023-Present,Minivan,V6,6
+Chrysler,Voyager,287 hp,262 lb-ft,9-speed automatic,Front-wheel drive or all-wheel drive,19/29 mpg,4,"Starting at $26,995",2023-Present,Minivan,V6,6
+Chrysler,Pacifica Hybrid,260 hp,253 lb-ft,eCVT,Front-wheel drive,84 MPGe,4,"Starting at $45,995",2023-Present,Minivan,Hybrid,4
+Fisker,Ocean,275 hp,450 lb-ft,Single-speed direct drive,Rear-wheel drive,350 miles,5,"Starting at $37,499",2023-Present,SUV,Electric,0
+Fisker,Pear,350 hp,516 lb-ft,Single-speed direct drive,Rear-wheel drive,310 miles,4,"Starting at $29,999",2023-Present,Sedan,Electric,0
+Infiniti,QX50,268 hp,280 lb-ft,9-speed automatic,Front-wheel drive or all-wheel drive,22/29 mpg,5,"Starting at $37,400",2023-Present,SUV,4-cylinder,4
+Infiniti,QX60,295 hp,270 lb-ft,9-speed automatic,Front-wheel drive or all-wheel drive,20/26 mpg,7,"Starting at $45,900",2023-Present,SUV,V6,6
+Infiniti,QX80,400 hp,400 lb-ft,7-speed automatic,All-wheel drive,14/19 mpg,4,"Starting at $72,900",2023-Present,SUV,V8,8
+Infiniti,Q50,300 hp,295 lb-ft,7-speed automatic,Rear-wheel drive or all-wheel drive,20/27 mpg,4,"Starting at $36,900",2023-Present,Sedan,V6,6
+Infiniti,Q60,300 hp,295 lb-ft,7-speed automatic,Rear-wheel drive or all-wheel drive,19/27 mpg,2,"Starting at $41,900",2023-Present,Coupe,V6,6
+Infiniti,QX70,390 hp,369 lb-ft,7-speed automatic,All-wheel drive,15/20 mpg,5,"Starting at $62,900",2023-Present,SUV,V8,8
+Infiniti,QX70 Hybrid,360 hp,273 lb-ft,Continuously variable automatic,All-wheel drive,23/28 mpg,5,"Starting at $68,900",2023-Present,SUV,Hybrid,V6
+Isuzu,Ascender,281 hp,307 lb-ft,6-speed automatic,All-wheel drive,16/23 mpg,4,"Starting at $40,520",2016-Present,SUV,V6,6
+Isuzu,D-Max,302 hp,236 lb-ft,6-speed automatic,Rear-wheel drive or 4-wheel drive,20/24 mpg,5,"Starting at $25,620",2016-Present,Pickup Truck,Diesel,4
+Isuzu,MU-X,255 hp,236 lb-ft,6-speed automatic,4-wheel drive,18/23 mpg,5,"Starting at $39,990",2016-Present,SUV,Diesel,4
+Isuzu,NPR,215 hp,430 lb-ft,6-speed manual,Rear-wheel drive or 4-wheel drive,17/22 mpg,3,"Starting at $31,320",2016-Present,Truck,Diesel,6
+Isuzu,NQR,181 hp,401 lb-ft,6-speed manual,Rear-wheel drive or 4-wheel drive,18/22 mpg,3,"Starting at $25,120",2016-Present,Truck,Diesel,4
+Isuzu,FTR,181 hp,401 lb-ft,6-speed manual,Rear-wheel drive or 4-wheel drive,18/22 mpg,3,"Starting at $33,920",2016-Present,Truck,Diesel,4
+Lotus,Emira,400 hp,310 lb-ft,8-speed automatic,Rear-wheel drive,23/30 mpg,2,"Starting at $72,900",2023-Present,Sports car,V6,6
+Lotus,Elise,250 hp,184 lb-ft,6-speed manual,Rear-wheel drive,27/35 mpg,2,"Starting at $59,900",2023-Present,Sports car,4-cylinder,4
+Lotus,Exige,300 hp,260 lb-ft,6-speed manual,Rear-wheel drive,23/30 mpg,2,"Starting at $71,900",2023-Present,Sports car,V6,6
+Lotus,Evija,"2,000 hp","1,250 lb-ft",Single-speed direct drive,Rear-wheel drive,180 miles,2,Starting at $1.9 million,2023-Present,Electric hypercar,Electric,0
+Morgan,Aero 8,367 hp,295 lb-ft,6-speed manual,Rear-wheel drive,19/29 mpg,2,"Starting at $120,000",2023-Present,Sports car,V8,8
+Morgan,Plus 4,180 hp,163 lb-ft,5-speed manual,Rear-wheel drive,26/35 mpg,2,"Starting at $79,995",2023-Present,Sports car,4-cylinder,4
+Morgan,Plus 6,335 hp,280 lb-ft,6-speed manual,Rear-wheel drive,21/29 mpg,2,"Starting at $109,995",2023-Present,Sports car,V6,6
+Morgan,Roadster,180 hp,163 lb-ft,5-speed manual,Rear-wheel drive,26/35 mpg,2,"Starting at $79,995",2023-Present,Sports car,4-cylinder,4
+Morgan,Super 3,170 hp,127 lb-ft,5-speed manual,Rear-wheel drive,36 mpg (city)/44 mpg (highway),2,"Starting at £34,995",2023-Present,Sports car,3-cylinder,3
+Smart,Fortwo,89 hp,128 lb-ft,5-speed automatic,Front-wheel drive,34 mpg (city)/41 mpg (highway),2,"Starting at $22,450",2023-Present,City car,3-cylinder,1
+Smart,Forfour,91 hp,128 lb-ft,6-speed automatic,Front-wheel drive,33 mpg (city)/40 mpg (highway),4,"Starting at $24,450",2023-Present,City car,3-cylinder,1
+Suzuki,Across,335 hp,369 lb-ft,CVT,All-wheel drive,25 mpg (city)/28 mpg (highway),5,"Starting at $44,990",2023-Present,SUV,Hybrid,4
+Suzuki,Baleno,110 hp,113 lb-ft,5-speed manual or CVT,Front-wheel drive,31 mpg (city)/42 mpg (highway),5,"Starting at $15,299",2023-Present,Hatchback,4-cylinder,4
+Suzuki,Celerio,68 hp,67 lb-ft,5-speed manual or AMT,Front-wheel drive,37 mpg (city)/47 mpg (highway),5,"Starting at $14,499",2023-Present,Hatchback,3-cylinder,1
+Suzuki,Ciaz,115 hp,113 lb-ft,4-speed automatic,Front-wheel drive,32 mpg (city)/42 mpg (highway),4,"Starting at $18,499",2023-Present,Sedan,4-cylinder,4
+Suzuki,Jimny,101 hp,96 lb-ft,5-speed manual,4-wheel drive,23 mpg (city)/28 mpg (highway),3,"Starting at $21,299",2023-Present,SUV,4-cylinder,4
+Suzuki,S-Cross,148 hp,132 lb-ft,6-speed automatic,All-wheel drive,28 mpg (city)/33 mpg (highway),5,"Starting at $25,299",2023-Present,Crossover,4-cylinder,4
+Suzuki,Swift,103 hp,101 lb-ft,5-speed manual or CVT,Front-wheel drive,32 mpg (city)/40 mpg (highway),5,"Starting at $16,299",2023-Present,Hatchback,4-cylinder,4
+Suzuki,Vitara,148 hp,132 lb-ft,6-speed automatic,All-wheel drive,28 mpg (city)/33 mpg (highway),5,"Starting at $26,299",2023-Present,SUV,4-cylinder,4
+Suzuki,XL7,181 hp,184 lb-ft,6-speed automatic,All-wheel drive,23 mpg (city)/30 mpg (highway),7,"Starting at $29,299",2023-Present,SUV,4-cylinder,4
+Vauxhall,Corsa,108 hp,127 lb-ft,5-speed manual or 8-speed automatic,Front-wheel drive,32 mpg (city)/42 mpg (highway),5,"Starting at £15,995",2023-Present,Hatchback,3-cylinder,1
+Vauxhall,Crossland,108 hp,127 lb-ft,8-speed automatic,Front-wheel drive,34 mpg (city)/42 mpg (highway),5,"Starting at £20,495",2023-Present,Crossover,3-cylinder,1
+Vauxhall,Grandland,177 hp,207 lb-ft,8-speed automatic,Front-wheel drive or all-wheel drive,30 mpg (city)/40 mpg (highway),5,"Starting at £24,495",2023-Present,SUV,4-cylinder,4
+Vauxhall,Insignia,177 hp,207 lb-ft,8-speed automatic,Front-wheel drive or all-wheel drive,31 mpg (city)/40 mpg (highway),5,"Starting at £25,495",2023-Present,Sedan,4-cylinder,4
+Vauxhall,Mokka,138 hp,174 lb-ft,8-speed automatic,Front-wheel drive or all-wheel drive,32 mpg (city)/40 mpg (highway),5,"Starting at £20,495",2023-Present,SUV,3-cylinder,1
+Vauxhall,Vivaro,130 hp,236 lb-ft,8-speed automatic,Front-wheel drive or all-wheel drive,25 mpg (city)/35 mpg (highway),5,"Starting at £24,595",2023-Present,Van,4-cylinder,4
+Vauxhall,Combo-Life,130 hp,236 lb-ft,8-speed automatic,Front-wheel drive or all-wheel drive,26 mpg (city)/37 mpg (highway),5,"Starting at £22,595",2023-Present,MPV,4-cylinder,4
+Zagato,Aston Martin DB4 GT Zagato,318 PS (314 bhp - 234 kW),377.0 Nm (278 lb. ft) at 4000 rpm,4 speed Manual,Rear-wheel drive,19/29 mpg,2,"Starting at £1,000,000",1961-1962,Coupé,Inline 6,6
+Zagato,Aston Martin V12 Zagato,517 PS (510 bhp - 380 kW),570 Nm (420 lb. ft) at 5750 rpm,6 speed Manual,Rear-wheel drive,"16.4 l/100 km - 17 mpg UK - 14 mpg US (Average), 0 to 100 km/h (62mph) in 4.2 seconds, a maximum top speed of 190 mph (305 km/h)",2,"Starting at £500,000",2011-2012,Coupé,V12,12
+Zagato,Alfa Romeo TZ3 Stradale,400 PS (395 bhp - 294 kW),400 Nm (295 lb. ft),6 speed Manual,Rear-wheel drive,"17.5 l/100 km - 18 mpg UK - 15 mpg US (Average), 0 to 100 km/h (62mph) in 4.2 seconds, a maximum top speed of 186 mph (299 km/h)",2,"Starting at €400,000",2011-2013,Coupé,V8,8
+Zagato,Bentley Flying Spur Zagato,630 PS (621 bhp - 462 kW),820 Nm (605 lb. ft),8 speed Automatic,All-wheel drive,"21.2 l/100 km - 22 mpg UK - 18 mpg US (Average), 0 to 100 km/h (62mph) in 4.5 seconds, a maximum top speed of 205 mph (330 km/h)",5,"Starting at £300,000",2012-2014,Saloon,W12,12
+Zagato,Fiat 124 Spider Zagato,160 PS (158 bhp - 118 kW),250 Nm (184 lb. ft),6 speed Manual,Rear-wheel drive,"52.3 mpg (Average), 0 to 100 km/h (62mph) in 7.5 seconds, a maximum top speed of 130 mph (210 km/h)",2,"Starting at €40,000",2011-2014,Roadster,4-cylinder,4
+Zagato,Jaguar C-Type,300 bhp (224 kW),270 lb-ft (366 Nm),4 speed Manual,Rear-wheel drive,"20 mpg (Average), 0 to 60 mph in 5.3 seconds, a maximum top speed of 150 mph (241 km/h)",2,"Starting at £1,000,000",1951-1953,Coupé,Straight 6,6
+Wiesmann,MF5,555 hp,680 Nm,6-speed automatic,Rear-wheel drive,10.7 l/100 km,2,"Starting at €200,000",2005-2013,2-door sports car,V8,8
+Wiesmann,GT MF4,420 hp,442 Nm,6-speed manual,Rear-wheel drive,12.5 l/100 km,2,"Starting at €150,000",2009-2013,2-door sports car,V9,8
+Wiesmann,Roadster MF4,360 hp,420 Nm,6-speed manual,Rear-wheel drive,12.5 l/100 km,2,"Starting at €130,000",2009-2014,2-door sports car,V10,8
+Lamborghini,Aventador,760 hp,560 lb-ft,7-speed automated manual,All-wheel drive,15 city / 24 highway,2,"Starting at $420,000",2011-2023,2-door sports car,V12,12
+Lamborghini,Huracan,631 hp,443 lb-ft,7-speed dual-clutch automatic,All-wheel drive,15 city / 22 highway,2,"Starting at $200,000",2014-present,2-door sports car,V10,10
+Lamborghini,Urus,650 hp,642 lb-ft,8-speed automatic,All-wheel drive,15 city / 21 highway,4,"Starting at $211,000",2018-present,5-door SUV,V8,8
+Lamborghini,Sian,819 hp,531 lb-ft,7-speed automated manual,All-wheel drive,13 city / 20 highway,2,Starting at $3.2 million,2020-present,2-door sports car,V12,12
+Lamborghini,Countach,449 hp,369 lb-ft,5-speed manual,Rear-wheel drive,13 city / 18 highway,2,"Starting at $180,000",1974-1990,2-door sports car,V12,12
+Lamborghini,Diablo,570 hp,463 lb-ft,5-speed manual,Rear-wheel drive,12 city / 18 highway,2,"Starting at $275,000",1990-2001,2-door sports car,V12,12
+Lamborghini,Murciélago,631 hp,487 lb-ft,6-speed manual,Rear-wheel drive,12 city / 18 highway,2,"Starting at $375,000",2001-2010,2-door sports car,V12,12
+Lamborghini,Gallardo,562 hp,413 lb-ft,6-speed manual,Rear-wheel drive,12 city / 18 highway,2,"Starting at $200,000",2003-2013,2-door sports car,V10,10
+Lamborghini,Espada,350 hp,339 lb-ft,5-speed manual,Rear-wheel drive,14 city / 19 highway,2,"Starting at $120,000",1968-1978,2-door grand tourer,V12,12
+Lamborghini,Miura,350 hp,284 lb-ft,5-speed manual,Rear-wheel drive,14 city / 19 highway,2,"Starting at $100,000",1966-1972,2-door sports car,V12,12
+Toyota,Camry,203 hp,184 lb-ft,8-speed automatic,Front-wheel drive,28 city / 39 highway,4,"Starting at $25,295",2020-present,Sedan,4-cylinder,4
+Toyota,Corolla,139 hp,126 lb-ft,CVT automatic,Front-wheel drive,31 city / 40 highway,4,"Starting at $20,075",2020-present,Sedan,4-cylinder,4
+Toyota,RAV4,203 hp,184 lb-ft,8-speed automatic,Front-wheel drive or all-wheel drive,27 city / 35 highway,5,"Starting at $26,225",2020-present,SUV,4-cylinder,4
+Toyota,Highlander,295 hp,263 lb-ft,8-speed automatic,Front-wheel drive or all-wheel drive,20 city / 27 highway,8,"Starting at $34,625",2020-present,SUV,V6,6
+Toyota,Tacoma,159 hp,184 lb-ft,6-speed manual or 6-speed automatic,Rear-wheel drive or 4-wheel drive,19 city / 24 highway,4,"Starting at $25,295",2020-present,Truck,4-cylinder,4
+Toyota,Prius,139 hp,126 lb-ft,CVT automatic,Front-wheel drive,53 city / 49 highway,5,"Starting at $24,525",2020-present,Hybrid,4-cylinder,4
+Toyota,Mirai,182 hp,221 lb-ft,Fuel cell electric,Rear-wheel drive,66 city / 67 highway,4,"Starting at $66,000",2020-present,Sedan,Fuel cell,1
+Toyota,GR Supra,382 hp,368 lb-ft,8-speed automatic,Rear-wheel drive,22 city / 31 highway,2,"Starting at $49,995",2020-present,Sports car,Inline-6,6
+Toyota,86,205 hp,156 lb-ft,6-speed manual,Rear-wheel drive,21 city / 30 highway,2,"Starting at $26,225",2020-present,Sports car,Boxer,4
+Suzuki,Alto,71 hp,63 lb-ft,5-speed manual,Front-wheel drive,30 city / 43 highway,5,"Starting at $11,000",2020-present,Hatchback,4-cylinder,4
+Suzuki,Baleno,101 hp,103 lb-ft,CVT automatic,Front-wheel drive,30 city / 43 highway,5,"Starting at $15,000",2020-present,Hatchback,4-cylinder,4
+Suzuki,Jimny,101 hp,96 lb-ft,5-speed manual,4-wheel drive,23 city / 30 highway,3,"Starting at $20,000",2019-present,SUV,4-cylinder,4
+Suzuki,Swift,110 hp,113 lb-ft,CVT automatic,Front-wheel drive,30 city / 43 highway,5,"Starting at $17,000",2020-present,Hatchback,4-cylinder,4
+Suzuki,Vitara,148 hp,132 lb-ft,6-speed automatic,Front-wheel drive or all-wheel drive,26 city / 34 highway,5,"Starting at $23,000",2020-present,SUV,4-cylinder,4
+Suzuki,Ertiga,103 hp,104 lb-ft,4-speed automatic,Front-wheel drive or all-wheel drive,24 city / 32 highway,7,"Starting at $20,000",2018-present,MPV,4-cylinder,4
+Suzuki,XL7,158 hp,145 lb-ft,6-speed automatic,Front-wheel drive or all-wheel drive,21 city / 29 highway,7,"Starting at $25,000",2020-present,SUV,4-cylinder,4
+Honda,Accord,192 hp,192 lb-ft,10-speed automatic,Front-wheel drive,27 city / 37 highway,4,"Starting at $24,770",2021-present,Sedan,4-cylinder,4
+Honda,Civic,158 hp,138 lb-ft,CVT automatic,Front-wheel drive,31 city / 40 highway,4,"Starting at $21,700",2022-present,Sedan,4-cylinder,4
+Honda,CR-V,190 hp,179 lb-ft,10-speed automatic,Front-wheel drive or all-wheel drive,27 city / 32 highway,5,"Starting at $25,295",2023-present,SUV,4-cylinder,4
+Honda,HR-V,158 hp,138 lb-ft,CVT automatic,Front-wheel drive,28 city / 32 highway,5,"Starting at $21,700",2023-present,SUV,4-cylinder,4
+Honda,Odyssey,280 hp,262 lb-ft,10-speed automatic,Front-wheel drive,19 city / 28 highway,8,"Starting at $31,470",2023-present,Minivan,V6,6
+Honda,Pilot,280 hp,262 lb-ft,9-speed automatic,Front-wheel drive or all-wheel drive,19 city / 26 highway,8,"Starting at $36,295",2023-present,SUV,V6,6
+Honda,Insight,151 hp,134 lb-ft,CVT automatic,Front-wheel drive,49 city / 47 highway,5,"Starting at $23,695",2023-present,Hybrid,4-cylinder,4
+Honda,NSX,573 hp,492 lb-ft,9-speed automatic,Rear-wheel drive,21 city / 28 highway,2,"Starting at $156,000",2016-present,Sports car,V6,6
+Honda,S2000,240 hp,162 lb-ft,6-speed manual,Rear-wheel drive,20 city / 28 highway,2,"Starting at $31,995",1999-2009,Sports car,4-cylinder,4
+Chevrolet,Camaro,335 hp,290 lb-ft,6-speed manual or 10-speed automatic,Rear-wheel drive,19 city / 29 highway,2,"Starting at $25,995",2016-present,Sports car,V6,6
+Chevrolet,Corvette,490 hp,460 lb-ft,8-speed automatic,Rear-wheel drive,16 city / 23 highway,2,"Starting at $59,995",2020-present,Sports car,V8,8
+Chevrolet,Cruze,153 hp,138 lb-ft,6-speed manual or CVT automatic,Front-wheel drive,29 city / 39 highway,4,"Starting at $19,995",2016-present,Sedan,4-cylinder,4
+Chevrolet,Equinox,170 hp,174 lb-ft,9-speed automatic,Front-wheel drive or all-wheel drive,26 city / 31 highway,5,"Starting at $25,295",2023-present,SUV,4-cylinder,4
+Chevrolet,Silverado 1500,355 hp,383 lb-ft,10-speed automatic,Rear-wheel drive or four-wheel drive,18 city / 24 highway,4,"Starting at $25,995",1998-present,Truck,V8,8
+Chevrolet,Silverado 2500HD,420 hp,460 lb-ft,6-speed automatic,Rear-wheel drive or four-wheel drive,16 city / 22 highway,4,"Starting at $35,295",1999-present,Truck,V8,8
+Chevrolet,Suburban,355 hp,383 lb-ft,10-speed automatic,Rear-wheel drive or four-wheel drive,17 city / 23 highway,8,"Starting at $51,995",1935-present,SUV,V8,8
+Chevrolet,Tahoe,355 hp,383 lb-ft,10-speed automatic,Rear-wheel drive or four-wheel drive,17 city / 23 highway,8,"Starting at $49,995",1995-present,SUV,V8,8
+Chevrolet,Trax,138 hp,148 lb-ft,CVT automatic,Front-wheel drive,28 city / 33 highway,5,"Starting at $20,995",2013-present,SUV,4-cylinder,4
+Chevrolet,Trailblazer,230 hp,258 lb-ft,9-speed automatic,Front-wheel drive or all-wheel drive,22 city / 29 highway,5,"Starting at $25,995",2020-present,SUV,4-cylinder,4
+Renault,Arkana,148 hp,148 lb-ft,CVT automatic,Front-wheel drive,29 city / 39 highway,5,"Starting at $23,990",2022-present,SUV,4-cylinder,4
+Renault,Clio,138 hp,148 lb-ft,CVT automatic,Front-wheel drive,30 city / 40 highway,5,"Starting at $19,990",2020-present,Hatchback,4-cylinder,4
+Renault,Captur,148 hp,148 lb-ft,CVT automatic,Front-wheel drive,29 city / 39 highway,5,"Starting at $22,990",2022-present,SUV,4-cylinder,4
+Renault,Koleos,181 hp,184 lb-ft,CVT automatic,Front-wheel drive or all-wheel drive,25 city / 31 highway,5,"Starting at $28,990",2017-present,SUV,4-cylinder,4
+Renault,Megane,181 hp,184 lb-ft,CVT automatic,Front-wheel drive,27 city / 34 highway,5,"Starting at $26,990",2016-present,Sedan,4-cylinder,4
+Renault,Zoe,134 hp,184 lb-ft,Single-speed automatic,Front-wheel drive,93 city / 97 highway,5,"Starting at $29,990",2013-present,Electric car,Electric,0
+Tata Motors,Punch,85 bhp,113 Nm,5-speed manual,Front-wheel drive,19.84 kmpl,5,4.59 lakhs,2020-present,SUV,1.2L naturally aspirated petrol,3
+Tata Motors,Nexon,108 bhp,170 Nm,"6-speed manual, AMT",Front-wheel drive,20.5 kmpl,5,6.49 lakhs,2017-present,SUV,"1.2L turbocharged petrol, 1.5L turbocharged diesel","3, 4"
+Tata Motors,Harrier,170 bhp,350 Nm,"6-speed manual, 6-speed automatic",All-wheel drive,13.1 kmpl,5,14.69 lakhs,2019-present,SUV,2.0L turbocharged petrol,4
+Tata Motors,Safari,170 bhp,350 Nm,"6-speed manual, 6-speed automatic",All-wheel drive,12.7 kmpl,7,24.69 lakhs,2021-present,SUV,2.0L turbocharged petrol,4
+Tata Motors,Altroz,90 hp,113 Nm,"5-speed manual, AMT",Front-wheel drive,19.6 kmpl / 22.4 kmpl,5,₹5.49 lakhs - ₹9.39 lakhs,2020-present,Hatchback,1.2L turbocharged petrol,3
+Tata Motors,Tiago,70 hp,95 Nm,5-speed manual,Front-wheel drive,23.84 kmpl / 26.59 kmpl,5,₹4.19 lakhs - ₹6.99 lakhs,2016-present,Hatchback,1.2L naturally aspirated petrol,3
+Tata Motors,Tigor,70 hp,95 Nm,5-speed manual,Front-wheel drive,23.84 kmpl / 26.59 kmpl,5,₹5.49 lakhs - ₹7.49 lakhs,2017-present,Sedan,1.2L naturally aspirated petrol,3
+Tata Motors,Thar,117 bhp @ 3500 rpm,250 Nm @ 1500-2000 rpm,"5-speed manual, 6-speed automatic","Rear-wheel drive, all-wheel drive",15.2 kmpl / 18 kmpl,5,₹10.55 Lakh - ₹16.78 Lakh,2020-present,SUV,2.0L turbocharged diesel,4

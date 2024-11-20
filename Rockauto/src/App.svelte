@@ -1,6 +1,7 @@
 <script>
   import PageHandler from "./handlers/PageHandler.svelte";
   import data from './Parts.json';
+  
 </script>
 
 <main>

@@ -29,6 +29,22 @@
     onMount(() => {
         setContext('setFilteredParts', setFilteredParts);
     });
+
+    let cartItems = [];
+    function addToCart(part) {
+        cartItems.push(part);
+        console.log(part)
+    }
+    function removeFromCart(part) {
+        cartItems.splice(cartItems.indexOf(part),1);
+    }
+    function isInCart(part) {
+        return cartItems.indexOf(part) > -1;
+    }
+  
+    setContext('addToCart', addToCart);
+    setContext('removeFromCart', removeFromCart);
+    setContext('isInCart', isInCart);
 </script>
 
 <main>
@@ -46,7 +62,7 @@
             <ToolsAndParts />
         {/if}
         {#if context.section === 'Cart'}
-            <Cart />
+            <Cart cart={cartItems}/>
         {/if}
         {#if context.section === 'Result'}
             <Result filteredParts={filteredParts}/>
