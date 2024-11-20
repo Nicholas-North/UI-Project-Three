@@ -1,6 +1,5 @@
 <script>
     import { getContext } from 'svelte';
-    import { load } from 'parse/lib/browser/EventuallyQueue';
   
     const addToCart = getContext('addToCart');
     const isInCart = getContext('isInCart');

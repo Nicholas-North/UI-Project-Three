@@ -1,5 +1,5 @@
 <script>
-    import { onMount, afterUpdate} from 'svelte';
+    import { onMount, afterUpdate, getContext} from 'svelte';
     import partsData from '../data/Parts.json'; // Assuming the JSON file is in the same directory
 
     export let VehicleID;
@@ -9,6 +9,10 @@
     let categories = [];
     let selectedCategories = new Set();
     let priceFilter = 'all';
+
+    const addToCart = getContext('addToCart');
+    const removeFromCart = getContext('removeFromCart');
+    const isInCart = getContext('isInCart');
 
     function updateParts() {
         let vehicleIDInt = parseInt(VehicleID);
@@ -58,12 +62,14 @@
         filterParts();
     }
 
-    // $: filterParts(); // Re-run filterParts whenever reactive variables change
+    function toggleCart(part) {
+        if (isInCart(part)) {
+            removeFromCart(part);
+        } else {
+            addToCart(part);
+        }
 
-    // $: {
-    //     console.log('Price filter changed:', priceFilter);
-    //     filterParts();
-    // }
+    }
 </script>
 
 <main>
@@ -110,13 +116,18 @@
     
         <div class="parts-list">
             <h3>Parts List</h3>
-            <ul>
-                {#each filteredParts as part}
-                    <li>
-                        <strong>{part.Name}</strong> - {part.Description} (${part.Price})
-                    </li>
-                {/each}
-            </ul>
+            {#each filteredParts as part}
+                <div class="part-item">
+                    <div>
+                        <h3>{part.Name}</h3>
+                        <p>Category: {part.Category}</p>
+                        <p>Price: ${part.Price}</p>
+                    </div>
+                    <button class="cart-button" on:click={() => toggleCart(part)}>
+                        {isInCart(part) ? '-' : '+'}
+                    </button>
+                </div>
+            {/each}
         </div>
     </div>
 </main>
@@ -133,5 +144,21 @@
     .parts-list {
         flex: 1;
         padding: 10px;
+    }
+    .part-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .part-item:hover .cart-button {
+        display: inline-block;
+    }
+
+    .cart-button {
+        display: none;
+        margin-left: 10px;
     }
 </style>
