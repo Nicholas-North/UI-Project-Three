@@ -1,5 +1,5 @@
 <script>
-    import {onMount} from 'svelte';
+    import {onMount, afterUpdate} from 'svelte';
     import {getContext} from 'svelte';
     import {setContext} from 'svelte';
 
@@ -7,17 +7,23 @@
     import VehicleParts from '../modules/VehicleParts.svelte';
 
     // let ActiveContext = {section: 'Catalog', context: 'splash'};
-    let ActiveContext = {section: 'Catalog', context: 'VehicleParts'};
+    // let ActiveContext = {section: 'Catalog', context: 'VehicleParts'};
+    let ActiveContext = {}
+    let selectedVechicle = 0;
 
-    function setActiveContext(section, context) {
-        ActiveContext = {section, context};
-    }
-    function getActiveContext() {
-        return ActiveContext;
+    function setSelectedVehicle(vehicleID){
+        selectedVechicle = parseInt(vehicleID);
+        ActiveContext = {section: 'Catalog', context: 'VehicleParts'};
     }
 
-    setContext('setActiveContext', setActiveContext);
-    setContext('getActiveContext', getActiveContext);
+    const getActiveContext = getContext('getActiveContext');
+
+    afterUpdate(() => {
+        ActiveContext = getActiveContext();
+        console.log('ActiveContext:', ActiveContext.section);
+    });
+
+    setContext('setSelectedVehicle', setSelectedVehicle);
 </script>
 
 <main>
@@ -25,7 +31,7 @@
         <Splash />
     {/if}
     {#if ActiveContext.context === 'VehicleParts'}
-        <VehicleParts VehicleID=1 />
+        <VehicleParts VehicleID={selectedVechicle} />
     {/if}
 
 </main>

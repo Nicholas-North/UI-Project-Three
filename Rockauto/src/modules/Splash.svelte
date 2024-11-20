@@ -16,6 +16,8 @@
     const getMakes = getContext('getMakes');
     const getModels = getContext('getModels');
     const getYears = getContext('getYears');
+    const setActiveContext = getContext('setActiveContext');
+    const setSelectedVehicle = getContext('setSelectedVehicle');
 
     onMount(() => {
         makes = getMakes();
@@ -34,6 +36,11 @@
     function getVehicleID(make, model, year) {
         const vehicle = carModels.find(car => car.Company === make && car.Model === model && car.Year === year);
         return vehicle ? vehicle.VehicleID : '';
+    }
+
+    function chooseVehicle(){
+        setSelectedVehicle(vehicleID);
+        setActiveContext('Catalog', 'VehicleParts');
     }
 
     $: if (selectedMake) {
@@ -80,6 +87,7 @@
 
     {#if selectedMake && selectedModel && selectedYear}
         <p>Vehicle ID: {vehicleID}</p>
+        <button on:click={chooseVehicle}>Set Active Context</button>
     {/if}
 </main>
 

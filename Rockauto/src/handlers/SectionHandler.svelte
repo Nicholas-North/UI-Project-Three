@@ -26,9 +26,9 @@
     function setFilteredParts(part) {
         filteredParts = part;
     }
-    onMount(() => {
-        setContext('setFilteredParts', setFilteredParts);
-    });
+    // onMount(() => {
+    //     setContext('setFilteredParts', setFilteredParts);
+    // });
 
     let cartItems = [];
     function addToCart(part) {
@@ -45,6 +45,7 @@
     setContext('addToCart', addToCart);
     setContext('removeFromCart', removeFromCart);
     setContext('isInCart', isInCart);
+    setContext('setFilteredParts', setFilteredParts);
 </script>
 
 <main>
