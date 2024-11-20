@@ -26,8 +26,9 @@
     function setFilteredParts(part) {
         filteredParts = part;
     }
-
-    setContext('setFilteredParts', setFilteredParts);
+    onMount(() => {
+        setContext('setFilteredParts', setFilteredParts);
+    });
 </script>
 
 <main>
