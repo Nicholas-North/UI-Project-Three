@@ -31,7 +31,7 @@
     //     setContext('setFilteredParts', setFilteredParts);
     // });
 
-    let cartItems = [];
+    $: cartItems = [];
     function addToCart(part) {
         cartItems.push(part);
         console.log(part)
@@ -42,11 +42,22 @@
     function isInCart(part) {
         return cartItems.indexOf(part) > -1;
     }
+    function numInCart(part) {
+        let retVal = 0;
+        for (let i=0; i<cartItems.length; i++){
+            if(cartItems[i].PartID == part.PartID){
+                retVal++;
+            }
+        }
+        return retVal;
+    }
   
+    setContext('cart', cartItems);
     setContext('addToCart', addToCart);
     setContext('removeFromCart', removeFromCart);
     setContext('isInCart', isInCart);
     setContext('setFilteredParts', setFilteredParts);
+    setContext('numInCart', numInCart);
 </script>
 
 <main>

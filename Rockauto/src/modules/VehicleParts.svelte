@@ -17,6 +17,13 @@
     const addToCart = getContext('addToCart');
     const removeFromCart = getContext('removeFromCart');
     const isInCart = getContext('isInCart');
+    const numInCart = getContext('numInCart');
+
+    const cart = getContext('cart');
+
+    function numParts(part, id){
+        document.getElementById(id).innerHTML = numInCart(part);
+    }
 
     function updateParts() {
         let vehicleIDInt = parseInt(VehicleID);
@@ -153,9 +160,13 @@
                             <td>{part.Category}</td>
                             <td>{part.Description}</td>
                             <td>${part.Price}</td>
-                            <td>
-                                <button class="cart-button" on:click={() => toggleCart(part)}>
-                                    {isInCart(part) ? '-' : '+'}
+                            <td style="display:flex">
+                                <button class="cart-button" style="margin-right:5px;" on:click={() => {addToCart(part); numParts(part, part.PartID);}}>
+                                    +
+                                </button>
+                                <p id={part.PartID}>{numInCart(part)}</p>
+                                <button class="cart-button" style="margin-left:5px;" on:click={() => {if(numInCart(part)>0){removeFromCart(part);} numParts(part, part.PartID);}}>
+                                    -
                                 </button>
                             </td>
                         </tr>
