@@ -4,9 +4,15 @@
 
   const addToCart = getContext('addToCart');
   const isInCart = getContext('isInCart');
+  const numInCart = getContext('numInCart');
+  const removeFromCart = getContext('removeFromCart');
 
   // Declare variables
   export let filteredParts = [];
+
+  function numParts(part, id){
+        document.getElementById(id).innerHTML = numInCart(part);
+    }
 
 </script>
 
@@ -26,10 +32,14 @@
                   <tr class="part-item">
                       <td class="bigText">{part.Name}</td>
                       <td class="bigText">${part.Price}</td>
-                      <td>
-                          <button class="cartButton" on:click={() => {addToCart(part);}}>
-                              {isInCart(part) ? 'Remove from Cart' : 'Add to Cart'}
-                          </button>
+                      <td style="display:flex">
+                        <button class="cart-button" style="margin-right:5px;" on:click={() => {addToCart(part); numParts(part, part.PartID);}}>
+                            +
+                        </button>
+                        <p id={part.PartID}>{numInCart(part)}</p>
+                        <button class="cart-button" style="margin-left:5px;" on:click={() => {if(numInCart(part)>0){removeFromCart(part);} numParts(part, part.PartID);}}>
+                            -
+                        </button>
                       </td>
                   </tr>
               {/each}
